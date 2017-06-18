@@ -1,0 +1,1792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0199481F0D5C318E56DDCE326CED4963 /* Pods-FestivalParkApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24E4889C2F49B3033C984AF7D4BFC55 /* Pods-FestivalParkApp-dummy.m */; };
+		0E9CC28AC8E34FE8E1C87E933E04BC7A /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46608714BEA322037DE69D89A10B3917 /* ImageProcessor.swift */; };
+		16DF9A0CDD7283926229F998B94FE5F1 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBED2FAF89DED00584E86CCCFEF3168 /* bg.png */; };
+		179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8EC35E65D665C8FD035848EC53588D /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C290D7B08C2AC667F2285F1F98BBB8B /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8CF0AE3E706E9EA6E9D75621F0A26D65 /* es.lproj */; };
+		1D33781CB0FC75AE59378E0BC8B98D30 /* Blur@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6F30DD9A16EDF9CBC564B4FE16F8BFC /* Blur@3x.png */; };
+		211B62032A7A036F680AB665219B601A /* feedbackActivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 010365B667DC2DCEF6CD2310D0D05E98 /* feedbackActivity@3x.png */; };
+		24E6C7944E4CFA2AC95B4DA3C3D1C818 /* Rectangle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF169AF87C6585B88266E39E7253D0 /* Rectangle@3x.png */; };
+		2AE622B61D59B2F3DC085227A4A2807F /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C46D9FE47A331FAFDB34229EB81872AC /* en.lproj */; };
+		2E5E570FFC49EF98550401421A243C0F /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25926DFAD7CF75E235411F8DF6B3AF3E /* CacheSerializer.swift */; };
+		306241CD913E05529D30E2FD1992ECE8 /* pt-PT.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CAA9319CE4F13076120E3FB28424AADB /* pt-PT.lproj */; };
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		31742950DFDB6529EEE40AC1E9A3EBF6 /* Pods-FestivalParkAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95454C6B4A7C36B880DB085381496996 /* Pods-FestivalParkAppTests-dummy.m */; };
+		3195139D13CD9323B2D2EEB6438F1191 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA1299EB0DFA3D5684A4F9DED1D74F /* de.lproj */; };
+		33395912F2FFA355C4C36B7EDEAA3DA7 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5C3760C3A003AD1E6BED20A4FDBB19 /* ImageView+Kingfisher.swift */; };
+		33A14E817C0FA585D5DA3A55E453299D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B30517BD92410D54B65880127F2B11 /* Image.swift */; };
+		3414E1D9CB15149A296E16C45967B021 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE694E5D28532D81BB5A4654EF575340 /* ImagePrefetcher.swift */; };
+		342AE33215135AD56B73580012DC22AB /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC17ED71BBF50486DFE0E3E7F302024 /* AnimatedImageView.swift */; };
+		34ED4888A2BF733B6EEBE49B68EBE09B /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB1F18701787A6ABF8006D3752AB933 /* Rectangle.png */; };
+		378B44CAA91C2106076668FDE72E1E02 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F530AAAB1A9BAE8FECE1FC6B9FAD0B7 /* KingfisherOptionsInfo.swift */; };
+		39A254D2B2DEE517F0057BB6D49D7C2B /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6BAB501A4CDD357D29109E03BE71B7F3 /* pt.lproj */; };
+		3AB6BA8D6D6364929EF501040C7B357A /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F617582103FC31C4E5F7ED0BD253E4F /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4089E39F76F86466B8DDD39A1C1ABB6B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20FF87195DCADFA9BA5E8A082A2160 /* Filter.swift */; };
+		41788E409D3A7D514F716A2734DEE461 /* buttonRoundedDeleteHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = E084EDBFFEE3A7F26DB74E50F9ADF626 /* buttonRoundedDeleteHighlighted.png */; };
+		447A4C322F829F6F1B56FCF82571C1BE /* buttonRoundedRegularHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8657BED6E606EA3895D6EE8FFC7039DC /* buttonRoundedRegularHighlighted@2x.png */; };
+		46E3880143390E1921F6CDEE2E138ECD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29E773093D44B778DB74AC5663DA9EC /* QuartzCore.framework */; };
+		4A05524D6A0DBC3CBBD694D026EA2625 /* AppIconPlaceHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6883042465E95061D69DF0F0C2C2F7DD /* AppIconPlaceHolder.png */; };
+		4DB828117648CC06C546BF376E221E27 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D697145BF3E4837F5B35036426EA07EC /* SVProgressHUD-dummy.m */; };
+		512C8BAA9211F9E0200A065809CBF668 /* FeedbackPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 37EF80A4BFA32099F032DAB64E3069F3 /* FeedbackPlaceholder.png */; };
+		52A280AB4852FDE92DF09B5E79D5C2AA /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB73B2C923E7AC289106235A406843 /* Indicator.swift */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECFF08126F43D683F1CDF31D6E1B803 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		545147792A4CF692357899FF1218E424 /* Pods-FestivalParkAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D451C9521CD47BFF3B9A6CBC81E4BB6A /* Pods-FestivalParkAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550828AC76748F9649819B238143B438 /* Cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F3E5F9D83B3E7092E8BBF3952AF388 /* Cancel@3x.png */; };
+		594060FE6794FB7D7B12DAA45A8B2E7E /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3A598D36A582CCD66CCB700DA097AB /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1692F88B3629B39C7F62F936F31153 /* feedbackActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C58225A94B2125CA644FCCF6C5D87E3 /* feedbackActivity~ipad.png */; };
+		5B7AE43D4CC781D55EF4912BBE6443DF /* authorize_denied.png in Resources */ = {isa = PBXBuildFile; fileRef = 4603523B218B81BE4F67DDC2F3BC3FB1 /* authorize_denied.png */; };
+		60BD6BA8D4E4EB39990FBAD633186BBF /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CADE21872EF475263385B265611D41 /* SVProgressHUD.m */; };
+		64F693DF1F80A70553427304A4AD32FC /* Rectangle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC04680A19AD541233251E5DCF9D09CA /* Rectangle@2x.png */; };
+		66E3B7646A92BAF23EEAB85003813B08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		6A375593407BC7937234B2B6A0811760 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF04C0A8434E3336BA83BF2A3F5A82E7 /* Kingfisher-dummy.m */; };
+		6BB0F5FB163D15F549FA2C1560496005 /* Blur.png in Resources */ = {isa = PBXBuildFile; fileRef = E7059EAB8AA89CBD3B6A6F05CE9FF867 /* Blur.png */; };
+		6BBB6FDAF2C7627AB6A1D5F03FAC9141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		6CD63E1564618B6213B98E0ABBC3127C /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9139AE484DE42677B31E1EBC1FFB1 /* ThreadHelper.swift */; };
+		6DA770087D354CDCD3889CDAE7C4C698 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08152CE565286824B7ABEA4677E3AF0E /* Box.swift */; };
+		7033AB168A68DE51F0E78AE422FBF830 /* feedbackActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C541623EB701F925A2DE8EC597F67A /* feedbackActivity.png */; };
+		7636F846675C9F4ED96E00C6C19A4890 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5929CD0CD984F2B77860A2F7CB43466 /* KingfisherManager.swift */; };
+		776D472A34D1DD9F9B130A81DF96213F /* Ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 9432523C8989E2299A05508A3F6BA6D6 /* Ok.png */; };
+		7AE87EE34B44A70223FA5A81FB732839 /* buttonRoundedRegular.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E9DD26A24D85E3A2DA3AB1D6E07A95 /* buttonRoundedRegular.png */; };
+		7EA9508CA44B32D4B0DD5E6AC30DA15F /* buttonRoundedDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 53687236A493F61B208DF7C57B9B8DED /* buttonRoundedDelete.png */; };
+		7F5929C3F9D86B7D9A3E7F5AF8B329F0 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F96E42F5D61D0A927A916008552D1D34 /* nl.lproj */; };
+		7F86919D5D60FBB9513E830FA24872CC /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1CA63A24E769F8B7DF2115C874DE93 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8015A096F2BF25B8BACF35D546A480F0 /* iconCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF32FEEF42278E5F10AE258FD2F541C /* iconCamera.png */; };
+		816D0043C38C925E7396BB3E4B0265A1 /* iconCamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A6B83B86D1C4D8D9C6E863C225E5C /* iconCamera@2x.png */; };
+		81CEEEA09450E7CD29CD339A3A6667D7 /* Cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4688ECE240292562E87CADB5D714F5A4 /* Cancel@2x.png */; };
+		81E069F40958969CACF5F3729F2B6CCA /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E48437B3DEB3FC32D476D14F05337095 /* nb.lproj */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE22B476A6FEC22CB285E05E935803B8 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F30AD5051B4C74530743403B70F12E /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5942F2584CAB9D99DFA77D05F859C941 /* ru.lproj */; };
+		86B7DA678C8705523C300947117C0706 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90528420B742E0F00B3DBDD03BC776E7 /* ImageTransition.swift */; };
+		8A2699FF2EBA86F30B3C606E8143BF21 /* authorize_denied@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8905C645933676CB0A9B086C7775FC /* authorize_denied@2x.png */; };
+		8A600ECA89A66E80F5DF4BD01523789F /* buttonRoundedDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6FC2A1AB1F1DD2ACD296CE3DC68E6A /* buttonRoundedDelete@2x.png */; };
+		8CFB63B239BBA31B7F438A86F91772DB /* feedbackActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3C396E99C9BFB756A7A79A300F94DAE /* feedbackActivity@2x.png */; };
+		8DA7E6883118CB3C8132B64D3D43AE0B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A2D04D2E5DEFDA42EB35887B07AF8 /* Resource.swift */; };
+		8F7B89EA954EAEC10A794215B02DF520 /* fa.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1BBB23B1EE7F6A7E0311A1E944F24334 /* fa.lproj */; };
+		92136C6584624998D5005F46C70A628B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B4C5EF04AF72A50CBFAFA7C8CB92B5 /* CFNetwork.framework */; };
+		94471776D1F885D3BAD21047721AECB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		9539C88E6DD2D3F24905191AA7930F73 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4030D7AEA69C0872951A93F08A0A1C /* SVIndefiniteAnimatedView.m */; };
+		9772B4BBFDA0D46ADE80953EBD31AEB7 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F2B65FF98C8E67CA37F04136936EBC /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A26CEB1AB9E8B36FC77467E2B40A0D5 /* buttonRoundedRegular@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4371191AFA5EC99016119D234AF74B9 /* buttonRoundedRegular@2x.png */; };
+		9A896205FC4560619CE06C57E76D34DA /* hr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0E6B724A19511BA8430FE4E2D02AFDCC /* hr.lproj */; };
+		9B42A5B4DF62C04BE35CAF02F9152CEE /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F47165E0FAA8AF2695C517A2A7D2C1FE /* zh-Hans.lproj */; };
+		9B976E472464545A24CF1C182627E5DC /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A664C2DA6129DF46BEABC44C040096E5 /* fr.lproj */; };
+		9C99E45B90BD95712D9878994BFC8B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		9F5DDF789E6A74FDF343682D36E82D4A /* Arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A54BDE38C10E567EB861B1438C3DE016 /* Arrow@3x.png */; };
+		9F826F893E86EB86591B637A1CE4B13A /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1C36FC33D098CB5A052CBE36256F4 /* String+MD5.swift */; };
+		A1713A47ED94D8830BAD128C0300BD07 /* Ok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652C22FA00C19E002347E074CB92F2BA /* Ok@3x.png */; };
+		A551A79EB76B1F880C3B365E60AE5738 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AF52F4B9CE56B1D4ADA0CCDC54FC7F /* SVProgressAnimatedView.m */; };
+		A56404B8192D9C5C23797F647F89D278 /* Pods-FestivalParkAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 913D0CA9FFEA654C136669AEA4C8A57E /* Pods-FestivalParkAppUITests-dummy.m */; };
+		A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 974285017C77624C28F1054FD2C1A9C0 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE65608B6BF4F578442E0C9E1438B41F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		AF863DE25494095B44045C7EA542BB54 /* authorize_denied@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B8A71105FC2EEEDA89545C747204D4 /* authorize_denied@3x.png */; };
+		B1F66523FD6FFB95709A649A430A86EB /* Arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185BBAE9F71E21DB95BA351974CAF482 /* Arrow@2x.png */; };
+		BB8A9BC1BBCBBD61CABFC47AED2E1B26 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC7BEF4037A22FCC5141099B3F7C1 /* SVRadialGradientLayer.m */; };
+		BC2CF91CE4BBDC41C6383BA008E42058 /* Blur@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E77E04E527C4E1C859A59F61BA650CDE /* Blur@2x.png */; };
+		BF971CA742C56FDFA1436491CBF4201E /* IconGradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829311BCC161F629A7E9209F7227AB94 /* IconGradient@2x.png */; };
+		C0B443EC78814F571697D774FCFAB832 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 31DCD84A61918FE3D678DF6E09B6D3DD /* Arrow.png */; };
+		C43232C42533AC53B62EF25ECFBD0E44 /* Pods-FestivalParkAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D573CF4297C572C70E4F057C14799FC /* Pods-FestivalParkAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4D7BE8092CF025A7ED9422B0368E5FA /* feedbackActivity@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F03850131D769229158CA2E6A4A0D43 /* feedbackActivity@2x~ipad.png */; };
+		C9CC5ED97D29C6C3DE22B78A9AA2AD91 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63750B5F74054FB49F9AF983E17F2A /* Kingfisher.swift */; };
+		C9FB1932F3CE1A8B71F1C17FD2FAD642 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5B797C96FE09DDE235B36ABC2DE6F83 /* SVProgressHUD.bundle */; };
+		D730512E62B003549106ABD42C0E69CC /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9BDD9E411603E3BB23A3BDDD0B5EF8E8 /* hu.lproj */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD7EA02902EBEFDDF0E9EC70A4F5A80 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6080C64C269628C3F5107BE87055E2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD3CBD047E671E75480ADA93D8877D /* ImageDownloader.swift */; };
+		E0203D939B64C304BF48A95251952102 /* buttonRoundedDeleteHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 030A50ECF90CE0EB793B4CE8C45A38DD /* buttonRoundedDeleteHighlighted@2x.png */; };
+		E51F234F1F04C2B22FBCC3401F077AD1 /* Cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9E3F6364716199EA9C8A26E4DF676F /* Cancel.png */; };
+		E979593548CD51FC0A75CE3945F8FE2A /* IconGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C3728A40B63814E3C5FAF0B3CC7A4 /* IconGradient.png */; };
+		EA816A580C3858934ED6FE92040C26DD /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3251C1683895EB34398A04735B7574 /* RequestModifier.swift */; };
+		EBBC8E13D2EFFA70B8778D83FDFA7264 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA56C165F5831CCEFE5639EB128502 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE89512E8D36E67CDC525DB9D5BBF5A7 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FCC3AC1EEC00B40FEF890274AA3DEC /* UIButton+Kingfisher.swift */; };
+		EF2EFC4B81E11CE4F4A7389DE26249E1 /* buttonRoundedRegularHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 5386C8E45661B25D30ED55D45154A04E /* buttonRoundedRegularHighlighted.png */; };
+		F6610F9C7A9B7E0445EC74B055335142 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6345D5DF61ED49C41C20BCF5C3130208 /* it.lproj */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0143D0E6940384F746AABA6D8F87E520 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F8E957950566622A3E4B61AACE8F0B4A /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8961E09619D1EEA6875007D421481 /* ImageCache.swift */; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6D7C143FB61AC7418BFE2C56E9A63 /* GoogleToolboxForMac-dummy.m */; };
+		FC3D46AB1C8D9694A61D211EA0295C98 /* Ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97BA6B84973EC221D389C8E9C4EB10B8 /* Ok@2x.png */; };
+		FD031E6E8F35D47EE28A32AC93A869E4 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 890653F45581ED36F25423D85F2EFDEF /* ja.lproj */; };
+		FD2140B8B2EF34FAE039AFEB4877AB92 /* Pods-FestivalParkApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE322425C653BDBAC9C1861B3A4ED9C /* Pods-FestivalParkApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70FBD37547731E8F0CEEFF557386BEA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33AC499807DC640E414EB0C47F876F1;
+			remoteInfo = SVProgressHUD;
+		};
+		766861882D5D69C1AD715D1340983AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4944FEC314D1A66588651D006273ADE;
+			remoteInfo = Kingfisher;
+		};
+		81AD7EE82D3F30405629A40B61783A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9AD825427F216B54E693242E671FA1;
+			remoteInfo = "HockeySDK-HockeySDKResources";
+		};
+		D6E7709BE666A833B1B9D08C1AABAC7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010365B667DC2DCEF6CD2310D0D05E98 /* feedbackActivity@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "feedbackActivity@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/feedbackActivity@3x.png"; sourceTree = "<group>"; };
+		0143D0E6940384F746AABA6D8F87E520 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		0254840C5CECED568018A9845B086FD6 /* Pods-FestivalParkAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FestivalParkAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		02D37B189B3A5C9E03CF2CEB7763ED00 /* Pods-FestivalParkAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FestivalParkAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		030A50ECF90CE0EB793B4CE8C45A38DD /* buttonRoundedDeleteHighlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "buttonRoundedDeleteHighlighted@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png"; sourceTree = "<group>"; };
+		08152CE565286824B7ABEA4677E3AF0E /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		0864AA76B3A57593D2AFBD4156314E12 /* Pods-FestivalParkAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FestivalParkAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A8905C645933676CB0A9B086C7775FC /* authorize_denied@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "authorize_denied@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/authorize_denied@2x.png"; sourceTree = "<group>"; };
+		0C0121F44134BF4AC8CCE27DD3F44C32 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		0C35C6A3CB562BDD0C58A30A8AAA3B7C /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		0D588BFEE1BC9198F72DD269BB3EA42B /* Pods-FestivalParkAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FestivalParkAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D765E1857F7113B70AC5A0C05A4BCE8 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		0E6B724A19511BA8430FE4E2D02AFDCC /* hr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hr.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/hr.lproj"; sourceTree = "<group>"; };
+		0F530AAAB1A9BAE8FECE1FC6B9FAD0B7 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		0F617582103FC31C4E5F7ED0BD253E4F /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		15981C374321938D49CA68609367D987 /* Pods-FestivalParkAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FestivalParkAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		16C55F4CA82FAEE4A4CE5461346043CD /* Pods_FestivalParkAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FestivalParkAppTests.framework; path = "Pods-FestivalParkAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180D59091D916E249E9E0028DBC20696 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		1843AECA2D4920B2DAA6521F7FEE47B2 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		185BBAE9F71E21DB95BA351974CAF482 /* Arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Arrow@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Arrow@2x.png"; sourceTree = "<group>"; };
+		18CD3CBD047E671E75480ADA93D8877D /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		1BBB23B1EE7F6A7E0311A1E944F24334 /* fa.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fa.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/fa.lproj"; sourceTree = "<group>"; };
+		1C1CA63A24E769F8B7DF2115C874DE93 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		1E9C5CE43BEBBB05AF4D2BE0EE4E4B38 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		1FEF169AF87C6585B88266E39E7253D0 /* Rectangle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Rectangle@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Rectangle@3x.png"; sourceTree = "<group>"; };
+		25926DFAD7CF75E235411F8DF6B3AF3E /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		27B78652679301FB91D5EABE02CFDCD4 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HockeySDKResources.bundle; path = HockeySDKResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		283CC7BEF4037A22FCC5141099B3F7C1 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		2C5C3760C3A003AD1E6BED20A4FDBB19 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		2D573CF4297C572C70E4F057C14799FC /* Pods-FestivalParkAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FestivalParkAppTests-umbrella.h"; sourceTree = "<group>"; };
+		2D6FC2A1AB1F1DD2ACD296CE3DC68E6A /* buttonRoundedDelete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "buttonRoundedDelete@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/buttonRoundedDelete@2x.png"; sourceTree = "<group>"; };
+		31DCD84A61918FE3D678DF6E09B6D3DD /* Arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Arrow.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Arrow.png"; sourceTree = "<group>"; };
+		35B8A71105FC2EEEDA89545C747204D4 /* authorize_denied@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "authorize_denied@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/authorize_denied@3x.png"; sourceTree = "<group>"; };
+		37EF80A4BFA32099F032DAB64E3069F3 /* FeedbackPlaceholder.png */ = {isa = PBXFileReference; includeInIndex = 1; name = FeedbackPlaceholder.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/FeedbackPlaceholder.png"; sourceTree = "<group>"; };
+		39B1C36FC33D098CB5A052CBE36256F4 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		3C4030D7AEA69C0872951A93F08A0A1C /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		3DCA1299EB0DFA3D5684A4F9DED1D74F /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/de.lproj"; sourceTree = "<group>"; };
+		3ECFF08126F43D683F1CDF31D6E1B803 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		41C541623EB701F925A2DE8EC597F67A /* feedbackActivity.png */ = {isa = PBXFileReference; includeInIndex = 1; name = feedbackActivity.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/feedbackActivity.png"; sourceTree = "<group>"; };
+		44B4C5EF04AF72A50CBFAFA7C8CB92B5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		4603523B218B81BE4F67DDC2F3BC3FB1 /* authorize_denied.png */ = {isa = PBXFileReference; includeInIndex = 1; name = authorize_denied.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/authorize_denied.png"; sourceTree = "<group>"; };
+		46608714BEA322037DE69D89A10B3917 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		4688ECE240292562E87CADB5D714F5A4 /* Cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Cancel@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Cancel@2x.png"; sourceTree = "<group>"; };
+		47B74EEBC165EFCF14A7ACD1DA6753BC /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework"; sourceTree = "<group>"; };
+		4A8EC35E65D665C8FD035848EC53588D /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		4E88982D3A9AC3DB75E6DF36DD9BA29A /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		4F3251C1683895EB34398A04735B7574 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		5108BE95CF881DB54F39651E2F7DA4BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53687236A493F61B208DF7C57B9B8DED /* buttonRoundedDelete.png */ = {isa = PBXFileReference; includeInIndex = 1; name = buttonRoundedDelete.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/buttonRoundedDelete.png"; sourceTree = "<group>"; };
+		5386C8E45661B25D30ED55D45154A04E /* buttonRoundedRegularHighlighted.png */ = {isa = PBXFileReference; includeInIndex = 1; name = buttonRoundedRegularHighlighted.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png"; sourceTree = "<group>"; };
+		549BCE191BCCEB22DC7949FF3AD2D39D /* Pods-FestivalParkApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FestivalParkApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		585AEB753FE272E7EC9D2D49FF038047 /* Pods-FestivalParkAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FestivalParkAppTests-resources.sh"; sourceTree = "<group>"; };
+		5942F2584CAB9D99DFA77D05F859C941 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/ru.lproj"; sourceTree = "<group>"; };
+		5FA2B63DA4E64062B57C4B291D4C1533 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		6345D5DF61ED49C41C20BCF5C3130208 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/it.lproj"; sourceTree = "<group>"; };
+		646187E4E98789626017D4A99F8B70DD /* Pods-FestivalParkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FestivalParkApp.release.xcconfig"; sourceTree = "<group>"; };
+		652C22FA00C19E002347E074CB92F2BA /* Ok@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Ok@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Ok@3x.png"; sourceTree = "<group>"; };
+		6883042465E95061D69DF0F0C2C2F7DD /* AppIconPlaceHolder.png */ = {isa = PBXFileReference; includeInIndex = 1; name = AppIconPlaceHolder.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/AppIconPlaceHolder.png"; sourceTree = "<group>"; };
+		68A8E6284C0F2745B5A9C7DEC7644519 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		6BAB501A4CDD357D29109E03BE71B7F3 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/pt.lproj"; sourceTree = "<group>"; };
+		6CAB73B2C923E7AC289106235A406843 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		6CEAAE00AC31211E8F87456F87BD2F6F /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		6D9CFF1FBAA4C1A0544259029B75AB0F /* Pods-FestivalParkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FestivalParkApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6DCFF0563706C44313EAFBA6FD6B76F9 /* Pods-FestivalParkAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FestivalParkAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F03850131D769229158CA2E6A4A0D43 /* feedbackActivity@2x~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "feedbackActivity@2x~ipad.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png"; sourceTree = "<group>"; };
+		6FF6D7C143FB61AC7418BFE2C56E9A63 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		74C8AE3B4E13683F0AE82DB0DD1FDE30 /* Pods-FestivalParkAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FestivalParkAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74CDAB1AA47C14DBBF4C7BC9491835AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79F2B65FF98C8E67CA37F04136936EBC /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		7EA8961E09619D1EEA6875007D421481 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		829311BCC161F629A7E9209F7227AB94 /* IconGradient@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "IconGradient@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/IconGradient@2x.png"; sourceTree = "<group>"; };
+		84A9139AE484DE42677B31E1EBC1FFB1 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		8657BED6E606EA3895D6EE8FFC7039DC /* buttonRoundedRegularHighlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "buttonRoundedRegularHighlighted@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png"; sourceTree = "<group>"; };
+		890653F45581ED36F25423D85F2EFDEF /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/ja.lproj"; sourceTree = "<group>"; };
+		8BBED2FAF89DED00584E86CCCFEF3168 /* bg.png */ = {isa = PBXFileReference; includeInIndex = 1; name = bg.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/bg.png"; sourceTree = "<group>"; };
+		8CF0AE3E706E9EA6E9D75621F0A26D65 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/es.lproj"; sourceTree = "<group>"; };
+		90528420B742E0F00B3DBDD03BC776E7 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		913D0CA9FFEA654C136669AEA4C8A57E /* Pods-FestivalParkAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FestivalParkAppUITests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9432523C8989E2299A05508A3F6BA6D6 /* Ok.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Ok.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Ok.png"; sourceTree = "<group>"; };
+		95454C6B4A7C36B880DB085381496996 /* Pods-FestivalParkAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FestivalParkAppTests-dummy.m"; sourceTree = "<group>"; };
+		9546138DEA762DF69DFF2D04214A2F9F /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		974285017C77624C28F1054FD2C1A9C0 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		97BA6B84973EC221D389C8E9C4EB10B8 /* Ok@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Ok@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Ok@2x.png"; sourceTree = "<group>"; };
+		980A6B83B86D1C4D8D9C6E863C225E5C /* iconCamera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "iconCamera@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/iconCamera@2x.png"; sourceTree = "<group>"; };
+		98EEFE7BA6EC6CF9B5D4DBF647A60D6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99509D46EC69A4A279BDC032CA0E8C19 /* Pods-FestivalParkAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FestivalParkAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9AC70B97BDF7AD1FF51CA571C59799BA /* Pods-FestivalParkAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FestivalParkAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		9B2C3728A40B63814E3C5FAF0B3CC7A4 /* IconGradient.png */ = {isa = PBXFileReference; includeInIndex = 1; name = IconGradient.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/IconGradient.png"; sourceTree = "<group>"; };
+		9BDD9E411603E3BB23A3BDDD0B5EF8E8 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hu.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/hu.lproj"; sourceTree = "<group>"; };
+		9C58225A94B2125CA644FCCF6C5D87E3 /* feedbackActivity~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "feedbackActivity~ipad.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/feedbackActivity~ipad.png"; sourceTree = "<group>"; };
+		9F63750B5F74054FB49F9AF983E17F2A /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		A3C1B68A19A1CBA290C9333A5BC7DA9D /* Pods_FestivalParkApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FestivalParkApp.framework; path = "Pods-FestivalParkApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54BDE38C10E567EB861B1438C3DE016 /* Arrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Arrow@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Arrow@3x.png"; sourceTree = "<group>"; };
+		A664C2DA6129DF46BEABC44C040096E5 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/fr.lproj"; sourceTree = "<group>"; };
+		A8B30517BD92410D54B65880127F2B11 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		AA9E3F6364716199EA9C8A26E4DF676F /* Cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Cancel.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Cancel.png"; sourceTree = "<group>"; };
+		AB20FF87195DCADFA9BA5E8A082A2160 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		ABB1F18701787A6ABF8006D3752AB933 /* Rectangle.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Rectangle.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Rectangle.png"; sourceTree = "<group>"; };
+		ACF32FEEF42278E5F10AE258FD2F541C /* iconCamera.png */ = {isa = PBXFileReference; includeInIndex = 1; name = iconCamera.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/iconCamera.png"; sourceTree = "<group>"; };
+		B29E773093D44B778DB74AC5663DA9EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B3DA56C165F5831CCEFE5639EB128502 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		B4371191AFA5EC99016119D234AF74B9 /* buttonRoundedRegular@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "buttonRoundedRegular@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/buttonRoundedRegular@2x.png"; sourceTree = "<group>"; };
+		B6F3E5F9D83B3E7092E8BBF3952AF388 /* Cancel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Cancel@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Cancel@3x.png"; sourceTree = "<group>"; };
+		BC3B6FBD5FEECCD054F80F1AF764A9F5 /* Pods-FestivalParkAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FestivalParkAppUITests.modulemap"; sourceTree = "<group>"; };
+		BF3813FD1118849AFBA4BD8FB235A283 /* Pods-FestivalParkApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FestivalParkApp-frameworks.sh"; sourceTree = "<group>"; };
+		C0C4142FE5D4A21FFA29886AE439C8B3 /* Pods-FestivalParkAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FestivalParkAppUITests-resources.sh"; sourceTree = "<group>"; };
+		C17A2D04D2E5DEFDA42EB35887B07AF8 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		C3F94F988B2124779507C3716BADE020 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46D9FE47A331FAFDB34229EB81872AC /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/en.lproj"; sourceTree = "<group>"; };
+		C5B797C96FE09DDE235B36ABC2DE6F83 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		C766BE95D4D8F4D23A179540BBE4DADD /* Pods-FestivalParkApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FestivalParkApp.modulemap"; sourceTree = "<group>"; };
+		CAA9319CE4F13076120E3FB28424AADB /* pt-PT.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-PT.lproj"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/pt-PT.lproj"; sourceTree = "<group>"; };
+		CEC7BBF2E97472C4652FCDFCEECFE9E1 /* Pods-FestivalParkAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FestivalParkAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CF3A598D36A582CCD66CCB700DA097AB /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		D010CA65EA95D7C1BD9627E7A61D43C1 /* Pods-FestivalParkApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FestivalParkApp-resources.sh"; sourceTree = "<group>"; };
+		D3CADE21872EF475263385B265611D41 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		D451C9521CD47BFF3B9A6CBC81E4BB6A /* Pods-FestivalParkAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FestivalParkAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		D5929CD0CD984F2B77860A2F7CB43466 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		D697145BF3E4837F5B35036426EA07EC /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		DBD7EA02902EBEFDDF0E9EC70A4F5A80 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		E063C5654C1F7A31A3999533B982C648 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E084EDBFFEE3A7F26DB74E50F9ADF626 /* buttonRoundedDeleteHighlighted.png */ = {isa = PBXFileReference; includeInIndex = 1; name = buttonRoundedDeleteHighlighted.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png"; sourceTree = "<group>"; };
+		E3C396E99C9BFB756A7A79A300F94DAE /* feedbackActivity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "feedbackActivity@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/feedbackActivity@2x.png"; sourceTree = "<group>"; };
+		E48437B3DEB3FC32D476D14F05337095 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nb.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/nb.lproj"; sourceTree = "<group>"; };
+		E53371EAEF83C06DAE32B33CCE535939 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		E5AF52F4B9CE56B1D4ADA0CCDC54FC7F /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		E6F30DD9A16EDF9CBC564B4FE16F8BFC /* Blur@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Blur@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Blur@3x.png"; sourceTree = "<group>"; };
+		E7059EAB8AA89CBD3B6A6F05CE9FF867 /* Blur.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Blur.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Blur.png"; sourceTree = "<group>"; };
+		E77E04E527C4E1C859A59F61BA650CDE /* Blur@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Blur@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Blur@2x.png"; sourceTree = "<group>"; };
+		E7EA99176608E0CC93C91CD3EE286307 /* Pods-FestivalParkAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FestivalParkAppTests.modulemap"; sourceTree = "<group>"; };
+		E9E9DD26A24D85E3A2DA3AB1D6E07A95 /* buttonRoundedRegular.png */ = {isa = PBXFileReference; includeInIndex = 1; name = buttonRoundedRegular.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/buttonRoundedRegular.png"; sourceTree = "<group>"; };
+		EAE322425C653BDBAC9C1861B3A4ED9C /* Pods-FestivalParkApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FestivalParkApp-umbrella.h"; sourceTree = "<group>"; };
+		ECC950E6519C261E72D0AF1F7A6E681F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF04C0A8434E3336BA83BF2A3F5A82E7 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		F24E4889C2F49B3033C984AF7D4BFC55 /* Pods-FestivalParkApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FestivalParkApp-dummy.m"; sourceTree = "<group>"; };
+		F336EF78A4A3659FCACD56334BA4A8F0 /* Pods_FestivalParkAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FestivalParkAppUITests.framework; path = "Pods-FestivalParkAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B66DBD5BBD7C1D5BCC33D8830C61DB /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		F3E1F11173891E2064401D28BB1F9929 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		F3FCC3AC1EEC00B40FEF890274AA3DEC /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		F47165E0FAA8AF2695C517A2A7D2C1FE /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/zh-Hans.lproj"; sourceTree = "<group>"; };
+		F4929775155510345522A089745900C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65CBEC7F68827E9A6BECE47F66CA97A /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		F6B0182995222C1C4F7B4E561BF3231E /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		F96E42F5D61D0A927A916008552D1D34 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/nl.lproj"; sourceTree = "<group>"; };
+		FC04680A19AD541233251E5DCF9D09CA /* Rectangle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Rectangle@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle/Rectangle@2x.png"; sourceTree = "<group>"; };
+		FDC17ED71BBF50486DFE0E3E7F302024 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		FE22B476A6FEC22CB285E05E935803B8 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		FE694E5D28532D81BB5A4654EF575340 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		FEF7ACDEA2DE606BDD3B8CD1A518603E /* ResourceBundle-HockeySDKResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HockeySDKResources-Info.plist"; sourceTree = "<group>"; };
+		FF64EC7CA11B28F01E36F92D05F753B8 /* Pods-FestivalParkApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FestivalParkApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00871C43FFA3098649FFC78400EA9A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94471776D1F885D3BAD21047721AECB4 /* Foundation.framework in Frameworks */,
+				46E3880143390E1921F6CDEE2E138ECD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4285FE58B9D59B584D9F34BF3244CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9ECDD97DB7EDAC4B30D151A870C643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE65608B6BF4F578442E0C9E1438B41F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E0B1DB3542F9B3DB06E90C1B7A1BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E3B7646A92BAF23EEAB85003813B08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF17CFC1F2BDFFAF6D2E0B62D8E568D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBB6FDAF2C7627AB6A1D5F03FAC9141 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED03E5917B811BACFE75189AE0C2A469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92136C6584624998D5005F46C70A628B /* CFNetwork.framework in Frameworks */,
+				9C99E45B90BD95712D9878994BFC8B88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F8E90A424B099A8CB9C369454708B1 /* Pods-FestivalParkApp */ = {
+			isa = PBXGroup;
+			children = (
+				5108BE95CF881DB54F39651E2F7DA4BC /* Info.plist */,
+				C766BE95D4D8F4D23A179540BBE4DADD /* Pods-FestivalParkApp.modulemap */,
+				FF64EC7CA11B28F01E36F92D05F753B8 /* Pods-FestivalParkApp-acknowledgements.markdown */,
+				549BCE191BCCEB22DC7949FF3AD2D39D /* Pods-FestivalParkApp-acknowledgements.plist */,
+				F24E4889C2F49B3033C984AF7D4BFC55 /* Pods-FestivalParkApp-dummy.m */,
+				BF3813FD1118849AFBA4BD8FB235A283 /* Pods-FestivalParkApp-frameworks.sh */,
+				D010CA65EA95D7C1BD9627E7A61D43C1 /* Pods-FestivalParkApp-resources.sh */,
+				EAE322425C653BDBAC9C1861B3A4ED9C /* Pods-FestivalParkApp-umbrella.h */,
+				6D9CFF1FBAA4C1A0544259029B75AB0F /* Pods-FestivalParkApp.debug.xcconfig */,
+				646187E4E98789626017D4A99F8B70DD /* Pods-FestivalParkApp.release.xcconfig */,
+			);
+			name = "Pods-FestivalParkApp";
+			path = "Target Support Files/Pods-FestivalParkApp";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F50E85800E889287FEC5A6920DBA9546 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12966AC0FB5122862492ECA1F57193F2 /* Pods-FestivalParkAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				74CDAB1AA47C14DBBF4C7BC9491835AE /* Info.plist */,
+				E7EA99176608E0CC93C91CD3EE286307 /* Pods-FestivalParkAppTests.modulemap */,
+				0D588BFEE1BC9198F72DD269BB3EA42B /* Pods-FestivalParkAppTests-acknowledgements.markdown */,
+				15981C374321938D49CA68609367D987 /* Pods-FestivalParkAppTests-acknowledgements.plist */,
+				95454C6B4A7C36B880DB085381496996 /* Pods-FestivalParkAppTests-dummy.m */,
+				9AC70B97BDF7AD1FF51CA571C59799BA /* Pods-FestivalParkAppTests-frameworks.sh */,
+				585AEB753FE272E7EC9D2D49FF038047 /* Pods-FestivalParkAppTests-resources.sh */,
+				2D573CF4297C572C70E4F057C14799FC /* Pods-FestivalParkAppTests-umbrella.h */,
+				74C8AE3B4E13683F0AE82DB0DD1FDE30 /* Pods-FestivalParkAppTests.debug.xcconfig */,
+				02D37B189B3A5C9E03CF2CEB7763ED00 /* Pods-FestivalParkAppTests.release.xcconfig */,
+			);
+			name = "Pods-FestivalParkAppTests";
+			path = "Target Support Files/Pods-FestivalParkAppTests";
+			sourceTree = "<group>";
+		};
+		12AA77CBA51E53A3B7D2017B9108776E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9546138DEA762DF69DFF2D04214A2F9F /* GoogleToolboxForMac.framework */,
+				27B78652679301FB91D5EABE02CFDCD4 /* HockeySDKResources.bundle */,
+				C3F94F988B2124779507C3716BADE020 /* Kingfisher.framework */,
+				A3C1B68A19A1CBA290C9333A5BC7DA9D /* Pods_FestivalParkApp.framework */,
+				16C55F4CA82FAEE4A4CE5461346043CD /* Pods_FestivalParkAppTests.framework */,
+				F336EF78A4A3659FCACD56334BA4A8F0 /* Pods_FestivalParkAppUITests.framework */,
+				1843AECA2D4920B2DAA6521F7FEE47B2 /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17F6F7B6DFDDF769B01B2005EB8B7A63 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				C91D2861DD35C920E04D763439EAD7DF /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		24A6B790DBB92116C4AE3E57D3DC9A12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4929775155510345522A089745900C7 /* Info.plist */,
+				68A8E6284C0F2745B5A9C7DEC7644519 /* Kingfisher.modulemap */,
+				0D765E1857F7113B70AC5A0C05A4BCE8 /* Kingfisher.xcconfig */,
+				EF04C0A8434E3336BA83BF2A3F5A82E7 /* Kingfisher-dummy.m */,
+				F3E1F11173891E2064401D28BB1F9929 /* Kingfisher-prefix.pch */,
+				974285017C77624C28F1054FD2C1A9C0 /* Kingfisher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		29949D72267CC75AD996C261E0822EEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC950E6519C261E72D0AF1F7A6E681F /* Info.plist */,
+				5FA2B63DA4E64062B57C4B291D4C1533 /* SVProgressHUD.modulemap */,
+				F65CBEC7F68827E9A6BECE47F66CA97A /* SVProgressHUD.xcconfig */,
+				D697145BF3E4837F5B35036426EA07EC /* SVProgressHUD-dummy.m */,
+				F3B66DBD5BBD7C1D5BCC33D8830C61DB /* SVProgressHUD-prefix.pch */,
+				1C1CA63A24E769F8B7DF2115C874DE93 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		2A73FF5F6CE1D8CC8710B0D082AC4F27 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10F8E90A424B099A8CB9C369454708B1 /* Pods-FestivalParkApp */,
+				12966AC0FB5122862492ECA1F57193F2 /* Pods-FestivalParkAppTests */,
+				A0FC4753AF6D9B7511D244D766DF38D7 /* Pods-FestivalParkAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2B89A8B7ED5D09B29B0AB553DE747755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180D59091D916E249E9E0028DBC20696 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37E84E00388F69E6F9C92F1BDC22776C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E88982D3A9AC3DB75E6DF36DD9BA29A /* GoogleToolboxForMac.modulemap */,
+				6CEAAE00AC31211E8F87456F87BD2F6F /* GoogleToolboxForMac.xcconfig */,
+				6FF6D7C143FB61AC7418BFE2C56E9A63 /* GoogleToolboxForMac-dummy.m */,
+				0C35C6A3CB562BDD0C58A30A8AAA3B7C /* GoogleToolboxForMac-prefix.pch */,
+				FE22B476A6FEC22CB285E05E935803B8 /* GoogleToolboxForMac-umbrella.h */,
+				E063C5654C1F7A31A3999533B982C648 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		3B14FDA7BCCDB018FC45462E443BBE43 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEF7ACDEA2DE606BDD3B8CD1A518603E /* ResourceBundle-HockeySDKResources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HockeySDK";
+			sourceTree = "<group>";
+		};
+		3BFA2FA19846FB2B0A2A6045794D6CDE /* DefaultLib */ = {
+			isa = PBXGroup;
+			children = (
+				66D3290E2830D73B35B822A6F186643D /* Frameworks */,
+				9057C6F0FF884B8E9E69AC819D4BCF5C /* Resources */,
+			);
+			name = DefaultLib;
+			sourceTree = "<group>";
+		};
+		48613A468C4F6A4B1AC8452E9C94303C /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				3ECFF08126F43D683F1CDF31D6E1B803 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		4B373E68BA99685001D72E1CD63A450F /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				DBD7EA02902EBEFDDF0E9EC70A4F5A80 /* GTMNSData+zlib.h */,
+				0143D0E6940384F746AABA6D8F87E520 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		59FE057B078A2D2726F05D5AA537ACEB /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				79F2B65FF98C8E67CA37F04136936EBC /* SVIndefiniteAnimatedView.h */,
+				3C4030D7AEA69C0872951A93F08A0A1C /* SVIndefiniteAnimatedView.m */,
+				B3DA56C165F5831CCEFE5639EB128502 /* SVProgressAnimatedView.h */,
+				E5AF52F4B9CE56B1D4ADA0CCDC54FC7F /* SVProgressAnimatedView.m */,
+				CF3A598D36A582CCD66CCB700DA097AB /* SVProgressHUD.h */,
+				D3CADE21872EF475263385B265611D41 /* SVProgressHUD.m */,
+				0F617582103FC31C4E5F7ED0BD253E4F /* SVRadialGradientLayer.h */,
+				283CC7BEF4037A22FCC5141099B3F7C1 /* SVRadialGradientLayer.m */,
+				8C873D86E959DD14C9E02EFA29AF2185 /* Resources */,
+				29949D72267CC75AD996C261E0822EEE /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		66D3290E2830D73B35B822A6F186643D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47B74EEBC165EFCF14A7ACD1DA6753BC /* HockeySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D948CC50A37E269F2B89173D55FDE9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E53371EAEF83C06DAE32B33CCE535939 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				D4241A4A633E30AA649EB17A1618B00C /* Pods */,
+				12AA77CBA51E53A3B7D2017B9108776E /* Products */,
+				2A73FF5F6CE1D8CC8710B0D082AC4F27 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88C0A9D8598C070E7388C164F69099D7 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				48613A468C4F6A4B1AC8452E9C94303C /* Defines */,
+				4B373E68BA99685001D72E1CD63A450F /* NSData+zlib */,
+				37E84E00388F69E6F9C92F1BDC22776C /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		8C873D86E959DD14C9E02EFA29AF2185 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5B797C96FE09DDE235B36ABC2DE6F83 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9057C6F0FF884B8E9E69AC819D4BCF5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6883042465E95061D69DF0F0C2C2F7DD /* AppIconPlaceHolder.png */,
+				31DCD84A61918FE3D678DF6E09B6D3DD /* Arrow.png */,
+				185BBAE9F71E21DB95BA351974CAF482 /* Arrow@2x.png */,
+				A54BDE38C10E567EB861B1438C3DE016 /* Arrow@3x.png */,
+				4603523B218B81BE4F67DDC2F3BC3FB1 /* authorize_denied.png */,
+				0A8905C645933676CB0A9B086C7775FC /* authorize_denied@2x.png */,
+				35B8A71105FC2EEEDA89545C747204D4 /* authorize_denied@3x.png */,
+				8BBED2FAF89DED00584E86CCCFEF3168 /* bg.png */,
+				E7059EAB8AA89CBD3B6A6F05CE9FF867 /* Blur.png */,
+				E77E04E527C4E1C859A59F61BA650CDE /* Blur@2x.png */,
+				E6F30DD9A16EDF9CBC564B4FE16F8BFC /* Blur@3x.png */,
+				53687236A493F61B208DF7C57B9B8DED /* buttonRoundedDelete.png */,
+				2D6FC2A1AB1F1DD2ACD296CE3DC68E6A /* buttonRoundedDelete@2x.png */,
+				E084EDBFFEE3A7F26DB74E50F9ADF626 /* buttonRoundedDeleteHighlighted.png */,
+				030A50ECF90CE0EB793B4CE8C45A38DD /* buttonRoundedDeleteHighlighted@2x.png */,
+				E9E9DD26A24D85E3A2DA3AB1D6E07A95 /* buttonRoundedRegular.png */,
+				B4371191AFA5EC99016119D234AF74B9 /* buttonRoundedRegular@2x.png */,
+				5386C8E45661B25D30ED55D45154A04E /* buttonRoundedRegularHighlighted.png */,
+				8657BED6E606EA3895D6EE8FFC7039DC /* buttonRoundedRegularHighlighted@2x.png */,
+				AA9E3F6364716199EA9C8A26E4DF676F /* Cancel.png */,
+				4688ECE240292562E87CADB5D714F5A4 /* Cancel@2x.png */,
+				B6F3E5F9D83B3E7092E8BBF3952AF388 /* Cancel@3x.png */,
+				3DCA1299EB0DFA3D5684A4F9DED1D74F /* de.lproj */,
+				C46D9FE47A331FAFDB34229EB81872AC /* en.lproj */,
+				8CF0AE3E706E9EA6E9D75621F0A26D65 /* es.lproj */,
+				1BBB23B1EE7F6A7E0311A1E944F24334 /* fa.lproj */,
+				41C541623EB701F925A2DE8EC597F67A /* feedbackActivity.png */,
+				E3C396E99C9BFB756A7A79A300F94DAE /* feedbackActivity@2x.png */,
+				6F03850131D769229158CA2E6A4A0D43 /* feedbackActivity@2x~ipad.png */,
+				010365B667DC2DCEF6CD2310D0D05E98 /* feedbackActivity@3x.png */,
+				9C58225A94B2125CA644FCCF6C5D87E3 /* feedbackActivity~ipad.png */,
+				37EF80A4BFA32099F032DAB64E3069F3 /* FeedbackPlaceholder.png */,
+				A664C2DA6129DF46BEABC44C040096E5 /* fr.lproj */,
+				0E6B724A19511BA8430FE4E2D02AFDCC /* hr.lproj */,
+				9BDD9E411603E3BB23A3BDDD0B5EF8E8 /* hu.lproj */,
+				ACF32FEEF42278E5F10AE258FD2F541C /* iconCamera.png */,
+				980A6B83B86D1C4D8D9C6E863C225E5C /* iconCamera@2x.png */,
+				9B2C3728A40B63814E3C5FAF0B3CC7A4 /* IconGradient.png */,
+				829311BCC161F629A7E9209F7227AB94 /* IconGradient@2x.png */,
+				6345D5DF61ED49C41C20BCF5C3130208 /* it.lproj */,
+				890653F45581ED36F25423D85F2EFDEF /* ja.lproj */,
+				E48437B3DEB3FC32D476D14F05337095 /* nb.lproj */,
+				F96E42F5D61D0A927A916008552D1D34 /* nl.lproj */,
+				9432523C8989E2299A05508A3F6BA6D6 /* Ok.png */,
+				97BA6B84973EC221D389C8E9C4EB10B8 /* Ok@2x.png */,
+				652C22FA00C19E002347E074CB92F2BA /* Ok@3x.png */,
+				6BAB501A4CDD357D29109E03BE71B7F3 /* pt.lproj */,
+				CAA9319CE4F13076120E3FB28424AADB /* pt-PT.lproj */,
+				ABB1F18701787A6ABF8006D3752AB933 /* Rectangle.png */,
+				FC04680A19AD541233251E5DCF9D09CA /* Rectangle@2x.png */,
+				1FEF169AF87C6585B88266E39E7253D0 /* Rectangle@3x.png */,
+				5942F2584CAB9D99DFA77D05F859C941 /* ru.lproj */,
+				F47165E0FAA8AF2695C517A2A7D2C1FE /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9F23D19346B6A58EAF6C3484039F2F9A /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				FDC17ED71BBF50486DFE0E3E7F302024 /* AnimatedImageView.swift */,
+				08152CE565286824B7ABEA4677E3AF0E /* Box.swift */,
+				25926DFAD7CF75E235411F8DF6B3AF3E /* CacheSerializer.swift */,
+				AB20FF87195DCADFA9BA5E8A082A2160 /* Filter.swift */,
+				A8B30517BD92410D54B65880127F2B11 /* Image.swift */,
+				7EA8961E09619D1EEA6875007D421481 /* ImageCache.swift */,
+				18CD3CBD047E671E75480ADA93D8877D /* ImageDownloader.swift */,
+				FE694E5D28532D81BB5A4654EF575340 /* ImagePrefetcher.swift */,
+				46608714BEA322037DE69D89A10B3917 /* ImageProcessor.swift */,
+				90528420B742E0F00B3DBDD03BC776E7 /* ImageTransition.swift */,
+				2C5C3760C3A003AD1E6BED20A4FDBB19 /* ImageView+Kingfisher.swift */,
+				6CAB73B2C923E7AC289106235A406843 /* Indicator.swift */,
+				4A8EC35E65D665C8FD035848EC53588D /* Kingfisher.h */,
+				9F63750B5F74054FB49F9AF983E17F2A /* Kingfisher.swift */,
+				D5929CD0CD984F2B77860A2F7CB43466 /* KingfisherManager.swift */,
+				0F530AAAB1A9BAE8FECE1FC6B9FAD0B7 /* KingfisherOptionsInfo.swift */,
+				4F3251C1683895EB34398A04735B7574 /* RequestModifier.swift */,
+				C17A2D04D2E5DEFDA42EB35887B07AF8 /* Resource.swift */,
+				39B1C36FC33D098CB5A052CBE36256F4 /* String+MD5.swift */,
+				84A9139AE484DE42677B31E1EBC1FFB1 /* ThreadHelper.swift */,
+				F3FCC3AC1EEC00B40FEF890274AA3DEC /* UIButton+Kingfisher.swift */,
+				24A6B790DBB92116C4AE3E57D3DC9A12 /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		A0FC4753AF6D9B7511D244D766DF38D7 /* Pods-FestivalParkAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98EEFE7BA6EC6CF9B5D4DBF647A60D6B /* Info.plist */,
+				BC3B6FBD5FEECCD054F80F1AF764A9F5 /* Pods-FestivalParkAppUITests.modulemap */,
+				99509D46EC69A4A279BDC032CA0E8C19 /* Pods-FestivalParkAppUITests-acknowledgements.markdown */,
+				0864AA76B3A57593D2AFBD4156314E12 /* Pods-FestivalParkAppUITests-acknowledgements.plist */,
+				913D0CA9FFEA654C136669AEA4C8A57E /* Pods-FestivalParkAppUITests-dummy.m */,
+				CEC7BBF2E97472C4652FCDFCEECFE9E1 /* Pods-FestivalParkAppUITests-frameworks.sh */,
+				C0C4142FE5D4A21FFA29886AE439C8B3 /* Pods-FestivalParkAppUITests-resources.sh */,
+				D451C9521CD47BFF3B9A6CBC81E4BB6A /* Pods-FestivalParkAppUITests-umbrella.h */,
+				6DCFF0563706C44313EAFBA6FD6B76F9 /* Pods-FestivalParkAppUITests.debug.xcconfig */,
+				0254840C5CECED568018A9845B086FD6 /* Pods-FestivalParkAppUITests.release.xcconfig */,
+			);
+			name = "Pods-FestivalParkAppUITests";
+			path = "Target Support Files/Pods-FestivalParkAppUITests";
+			sourceTree = "<group>";
+		};
+		A634C0B26EDD68E560A684C1F8CBF3B6 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				7D948CC50A37E269F2B89173D55FDE9D /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		A81709712A6BDFB3F3184790B299BC68 /* HockeySDK */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA2FA19846FB2B0A2A6045794D6CDE /* DefaultLib */,
+				3B14FDA7BCCDB018FC45462E443BBE43 /* Support Files */,
+			);
+			name = HockeySDK;
+			path = HockeySDK;
+			sourceTree = "<group>";
+		};
+		B2E4BB2F80C1E1C9A806FACCB21FFE52 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				2B89A8B7ED5D09B29B0AB553DE747755 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		C91D2861DD35C920E04D763439EAD7DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E9C5CE43BEBBB05AF4D2BE0EE4E4B38 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4241A4A633E30AA649EB17A1618B00C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC5F39003C075BEA54ECA1393E70AC91 /* Firebase */,
+				A634C0B26EDD68E560A684C1F8CBF3B6 /* FirebaseAnalytics */,
+				E31AD6A3547ED274B51711D65B3E0E0A /* FirebaseCore */,
+				B2E4BB2F80C1E1C9A806FACCB21FFE52 /* FirebaseDatabase */,
+				17F6F7B6DFDDF769B01B2005EB8B7A63 /* FirebaseInstanceID */,
+				88C0A9D8598C070E7388C164F69099D7 /* GoogleToolboxForMac */,
+				A81709712A6BDFB3F3184790B299BC68 /* HockeySDK */,
+				9F23D19346B6A58EAF6C3484039F2F9A /* Kingfisher */,
+				59FE057B078A2D2726F05D5AA537ACEB /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4854007B23977E805E5DF5BC863EA82 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0C0121F44134BF4AC8CCE27DD3F44C32 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E31AD6A3547ED274B51711D65B3E0E0A /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				F5A58ED389DCC0E54759B2C8370397B1 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		F50E85800E889287FEC5A6920DBA9546 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				44B4C5EF04AF72A50CBFAFA7C8CB92B5 /* CFNetwork.framework */,
+				789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */,
+				B29E773093D44B778DB74AC5663DA9EC /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F5A58ED389DCC0E54759B2C8370397B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B0182995222C1C4F7B4E561BF3231E /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC5F39003C075BEA54ECA1393E70AC91 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				D4854007B23977E805E5DF5BC863EA82 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F94B6BFE5A6242FBBB0BE3D27F7CEE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */,
+				179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57188800EB579642B9ADCF49335EE20C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43232C42533AC53B62EF25ECFBD0E44 /* Pods-FestivalParkAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8CC0D4BAD16220A330E8797922C2BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9772B4BBFDA0D46ADE80953EBD31AEB7 /* SVIndefiniteAnimatedView.h in Headers */,
+				EBBC8E13D2EFFA70B8778D83FDFA7264 /* SVProgressAnimatedView.h in Headers */,
+				7F86919D5D60FBB9513E830FA24872CC /* SVProgressHUD-umbrella.h in Headers */,
+				594060FE6794FB7D7B12DAA45A8B2E7E /* SVProgressHUD.h in Headers */,
+				3AB6BA8D6D6364929EF501040C7B357A /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABACB9741A7C066AED345AFCB1C966FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2140B8B2EF34FAE039AFEB4877AB92 /* Pods-FestivalParkApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3A803A38A8C4A84D0F0B35E23CD87D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545147792A4CF692357899FF1218E424 /* Pods-FestivalParkAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 9546138DEA762DF69DFF2D04214A2F9F /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20548428C847A34B9239C8CDC6CED0FA /* Pods-FestivalParkAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B354B3EF8C9EBFD671E42502C6D4A156 /* Build configuration list for PBXNativeTarget "Pods-FestivalParkAppUITests" */;
+			buildPhases = (
+				354D3D49DD8687BD719CA904DD367BD1 /* Sources */,
+				CF17CFC1F2BDFFAF6D2E0B62D8E568D0 /* Frameworks */,
+				AE3A803A38A8C4A84D0F0B35E23CD87D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FestivalParkAppUITests";
+			productName = "Pods-FestivalParkAppUITests";
+			productReference = F336EF78A4A3659FCACD56334BA4A8F0 /* Pods_FestivalParkAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		608D4411E3C9EF0AB988A0DE8A843E80 /* Pods-FestivalParkAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87BCB27E1E100179E6E65399E17E7C9 /* Build configuration list for PBXNativeTarget "Pods-FestivalParkAppTests" */;
+			buildPhases = (
+				03407CB91E47403BA872200B5AFAFCF8 /* Sources */,
+				5F9ECDD97DB7EDAC4B30D151A870C643 /* Frameworks */,
+				57188800EB579642B9ADCF49335EE20C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FestivalParkAppTests";
+			productName = "Pods-FestivalParkAppTests";
+			productReference = 16C55F4CA82FAEE4A4CE5461346043CD /* Pods_FestivalParkAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		662F3A9E66909E5FF634139835DC3235 /* Pods-FestivalParkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E9DE5785E60F90CDA32C0836B7D730 /* Build configuration list for PBXNativeTarget "Pods-FestivalParkApp" */;
+			buildPhases = (
+				874140961B08092D564BD55300510500 /* Sources */,
+				82E0B1DB3542F9B3DB06E90C1B7A1BF0 /* Frameworks */,
+				ABACB9741A7C066AED345AFCB1C966FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460E4561FF57C7667DFC9F030A7ACBB2 /* PBXTargetDependency */,
+				AB6ECD69917299052E191B17AF8D66B5 /* PBXTargetDependency */,
+				172741E1B1871AC989176595827A42AC /* PBXTargetDependency */,
+				980B7FF3D2D49E1E88C28DE22F056D83 /* PBXTargetDependency */,
+			);
+			name = "Pods-FestivalParkApp";
+			productName = "Pods-FestivalParkApp";
+			productReference = A3C1B68A19A1CBA290C9333A5BC7DA9D /* Pods_FestivalParkApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4944FEC314D1A66588651D006273ADE /* Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E7EFBCEA1340954A03AA68051C2306 /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildPhases = (
+				EAC7EA95310C5E1E724C632852F7D186 /* Sources */,
+				ED03E5917B811BACFE75189AE0C2A469 /* Frameworks */,
+				0F94B6BFE5A6242FBBB0BE3D27F7CEE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingfisher;
+			productName = Kingfisher;
+			productReference = C3F94F988B2124779507C3716BADE020 /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB9AD825427F216B54E693242E671FA1 /* HockeySDK-HockeySDKResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36BC870E757C15E340A9A6F2C5E8A6F4 /* Build configuration list for PBXNativeTarget "HockeySDK-HockeySDKResources" */;
+			buildPhases = (
+				7097FE18530E2A5B620A9BFBDE8ABC3C /* Sources */,
+				3E4285FE58B9D59B584D9F34BF3244CC /* Frameworks */,
+				6E6685D17C38CFE419124629F201AB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HockeySDK-HockeySDKResources";
+			productName = "HockeySDK-HockeySDKResources";
+			productReference = 27B78652679301FB91D5EABE02CFDCD4 /* HockeySDKResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F33AC499807DC640E414EB0C47F876F1 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACAD50DF4BD17E59A58BB899162911E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				D4E7E9AB8536F0FCBF9F9AD60E090105 /* Sources */,
+				00871C43FFA3098649FFC78400EA9A8E /* Frameworks */,
+				6E8CC0D4BAD16220A330E8797922C2BA /* Headers */,
+				00FAD0541C662D28E6693D5027D6524C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 1843AECA2D4920B2DAA6521F7FEE47B2 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 12AA77CBA51E53A3B7D2017B9108776E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				EB9AD825427F216B54E693242E671FA1 /* HockeySDK-HockeySDKResources */,
+				C4944FEC314D1A66588651D006273ADE /* Kingfisher */,
+				662F3A9E66909E5FF634139835DC3235 /* Pods-FestivalParkApp */,
+				608D4411E3C9EF0AB988A0DE8A843E80 /* Pods-FestivalParkAppTests */,
+				20548428C847A34B9239C8CDC6CED0FA /* Pods-FestivalParkAppUITests */,
+				F33AC499807DC640E414EB0C47F876F1 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00FAD0541C662D28E6693D5027D6524C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FB1932F3CE1A8B71F1C17FD2FAD642 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6685D17C38CFE419124629F201AB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A05524D6A0DBC3CBBD694D026EA2625 /* AppIconPlaceHolder.png in Resources */,
+				C0B443EC78814F571697D774FCFAB832 /* Arrow.png in Resources */,
+				B1F66523FD6FFB95709A649A430A86EB /* Arrow@2x.png in Resources */,
+				9F5DDF789E6A74FDF343682D36E82D4A /* Arrow@3x.png in Resources */,
+				5B7AE43D4CC781D55EF4912BBE6443DF /* authorize_denied.png in Resources */,
+				8A2699FF2EBA86F30B3C606E8143BF21 /* authorize_denied@2x.png in Resources */,
+				AF863DE25494095B44045C7EA542BB54 /* authorize_denied@3x.png in Resources */,
+				16DF9A0CDD7283926229F998B94FE5F1 /* bg.png in Resources */,
+				6BB0F5FB163D15F549FA2C1560496005 /* Blur.png in Resources */,
+				BC2CF91CE4BBDC41C6383BA008E42058 /* Blur@2x.png in Resources */,
+				1D33781CB0FC75AE59378E0BC8B98D30 /* Blur@3x.png in Resources */,
+				7EA9508CA44B32D4B0DD5E6AC30DA15F /* buttonRoundedDelete.png in Resources */,
+				8A600ECA89A66E80F5DF4BD01523789F /* buttonRoundedDelete@2x.png in Resources */,
+				41788E409D3A7D514F716A2734DEE461 /* buttonRoundedDeleteHighlighted.png in Resources */,
+				E0203D939B64C304BF48A95251952102 /* buttonRoundedDeleteHighlighted@2x.png in Resources */,
+				7AE87EE34B44A70223FA5A81FB732839 /* buttonRoundedRegular.png in Resources */,
+				9A26CEB1AB9E8B36FC77467E2B40A0D5 /* buttonRoundedRegular@2x.png in Resources */,
+				EF2EFC4B81E11CE4F4A7389DE26249E1 /* buttonRoundedRegularHighlighted.png in Resources */,
+				447A4C322F829F6F1B56FCF82571C1BE /* buttonRoundedRegularHighlighted@2x.png in Resources */,
+				E51F234F1F04C2B22FBCC3401F077AD1 /* Cancel.png in Resources */,
+				81CEEEA09450E7CD29CD339A3A6667D7 /* Cancel@2x.png in Resources */,
+				550828AC76748F9649819B238143B438 /* Cancel@3x.png in Resources */,
+				3195139D13CD9323B2D2EEB6438F1191 /* de.lproj in Resources */,
+				2AE622B61D59B2F3DC085227A4A2807F /* en.lproj in Resources */,
+				1C290D7B08C2AC667F2285F1F98BBB8B /* es.lproj in Resources */,
+				8F7B89EA954EAEC10A794215B02DF520 /* fa.lproj in Resources */,
+				7033AB168A68DE51F0E78AE422FBF830 /* feedbackActivity.png in Resources */,
+				8CFB63B239BBA31B7F438A86F91772DB /* feedbackActivity@2x.png in Resources */,
+				C4D7BE8092CF025A7ED9422B0368E5FA /* feedbackActivity@2x~ipad.png in Resources */,
+				211B62032A7A036F680AB665219B601A /* feedbackActivity@3x.png in Resources */,
+				5A1692F88B3629B39C7F62F936F31153 /* feedbackActivity~ipad.png in Resources */,
+				512C8BAA9211F9E0200A065809CBF668 /* FeedbackPlaceholder.png in Resources */,
+				9B976E472464545A24CF1C182627E5DC /* fr.lproj in Resources */,
+				9A896205FC4560619CE06C57E76D34DA /* hr.lproj in Resources */,
+				D730512E62B003549106ABD42C0E69CC /* hu.lproj in Resources */,
+				8015A096F2BF25B8BACF35D546A480F0 /* iconCamera.png in Resources */,
+				816D0043C38C925E7396BB3E4B0265A1 /* iconCamera@2x.png in Resources */,
+				E979593548CD51FC0A75CE3945F8FE2A /* IconGradient.png in Resources */,
+				BF971CA742C56FDFA1436491CBF4201E /* IconGradient@2x.png in Resources */,
+				F6610F9C7A9B7E0445EC74B055335142 /* it.lproj in Resources */,
+				FD031E6E8F35D47EE28A32AC93A869E4 /* ja.lproj in Resources */,
+				81E069F40958969CACF5F3729F2B6CCA /* nb.lproj in Resources */,
+				7F5929C3F9D86B7D9A3E7F5AF8B329F0 /* nl.lproj in Resources */,
+				776D472A34D1DD9F9B130A81DF96213F /* Ok.png in Resources */,
+				FC3D46AB1C8D9694A61D211EA0295C98 /* Ok@2x.png in Resources */,
+				A1713A47ED94D8830BAD128C0300BD07 /* Ok@3x.png in Resources */,
+				306241CD913E05529D30E2FD1992ECE8 /* pt-PT.lproj in Resources */,
+				39A254D2B2DEE517F0057BB6D49D7C2B /* pt.lproj in Resources */,
+				34ED4888A2BF733B6EEBE49B68EBE09B /* Rectangle.png in Resources */,
+				64F693DF1F80A70553427304A4AD32FC /* Rectangle@2x.png in Resources */,
+				24E6C7944E4CFA2AC95B4DA3C3D1C818 /* Rectangle@3x.png in Resources */,
+				81F30AD5051B4C74530743403B70F12E /* ru.lproj in Resources */,
+				9B42A5B4DF62C04BE35CAF02F9152CEE /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03407CB91E47403BA872200B5AFAFCF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31742950DFDB6529EEE40AC1E9A3EBF6 /* Pods-FestivalParkAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354D3D49DD8687BD719CA904DD367BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56404B8192D9C5C23797F647F89D278 /* Pods-FestivalParkAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7097FE18530E2A5B620A9BFBDE8ABC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874140961B08092D564BD55300510500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0199481F0D5C318E56DDCE326CED4963 /* Pods-FestivalParkApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E7E9AB8536F0FCBF9F9AD60E090105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9539C88E6DD2D3F24905191AA7930F73 /* SVIndefiniteAnimatedView.m in Sources */,
+				A551A79EB76B1F880C3B365E60AE5738 /* SVProgressAnimatedView.m in Sources */,
+				4DB828117648CC06C546BF376E221E27 /* SVProgressHUD-dummy.m in Sources */,
+				60BD6BA8D4E4EB39990FBAD633186BBF /* SVProgressHUD.m in Sources */,
+				BB8A9BC1BBCBBD61CABFC47AED2E1B26 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC7EA95310C5E1E724C632852F7D186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342AE33215135AD56B73580012DC22AB /* AnimatedImageView.swift in Sources */,
+				6DA770087D354CDCD3889CDAE7C4C698 /* Box.swift in Sources */,
+				2E5E570FFC49EF98550401421A243C0F /* CacheSerializer.swift in Sources */,
+				4089E39F76F86466B8DDD39A1C1ABB6B /* Filter.swift in Sources */,
+				33A14E817C0FA585D5DA3A55E453299D /* Image.swift in Sources */,
+				F8E957950566622A3E4B61AACE8F0B4A /* ImageCache.swift in Sources */,
+				DC6080C64C269628C3F5107BE87055E2 /* ImageDownloader.swift in Sources */,
+				3414E1D9CB15149A296E16C45967B021 /* ImagePrefetcher.swift in Sources */,
+				0E9CC28AC8E34FE8E1C87E933E04BC7A /* ImageProcessor.swift in Sources */,
+				86B7DA678C8705523C300947117C0706 /* ImageTransition.swift in Sources */,
+				33395912F2FFA355C4C36B7EDEAA3DA7 /* ImageView+Kingfisher.swift in Sources */,
+				52A280AB4852FDE92DF09B5E79D5C2AA /* Indicator.swift in Sources */,
+				6A375593407BC7937234B2B6A0811760 /* Kingfisher-dummy.m in Sources */,
+				C9CC5ED97D29C6C3DE22B78A9AA2AD91 /* Kingfisher.swift in Sources */,
+				7636F846675C9F4ED96E00C6C19A4890 /* KingfisherManager.swift in Sources */,
+				378B44CAA91C2106076668FDE72E1E02 /* KingfisherOptionsInfo.swift in Sources */,
+				EA816A580C3858934ED6FE92040C26DD /* RequestModifier.swift in Sources */,
+				8DA7E6883118CB3C8132B64D3D43AE0B /* Resource.swift in Sources */,
+				9F826F893E86EB86591B637A1CE4B13A /* String+MD5.swift in Sources */,
+				6CD63E1564618B6213B98E0ABBC3127C /* ThreadHelper.swift in Sources */,
+				EE89512E8D36E67CDC525DB9D5BBF5A7 /* UIButton+Kingfisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172741E1B1871AC989176595827A42AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = C4944FEC314D1A66588651D006273ADE /* Kingfisher */;
+			targetProxy = 766861882D5D69C1AD715D1340983AAC /* PBXContainerItemProxy */;
+		};
+		460E4561FF57C7667DFC9F030A7ACBB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = D6E7709BE666A833B1B9D08C1AABAC7A /* PBXContainerItemProxy */;
+		};
+		980B7FF3D2D49E1E88C28DE22F056D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = F33AC499807DC640E414EB0C47F876F1 /* SVProgressHUD */;
+			targetProxy = 70FBD37547731E8F0CEEFF557386BEA2 /* PBXContainerItemProxy */;
+		};
+		AB6ECD69917299052E191B17AF8D66B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HockeySDK-HockeySDKResources";
+			target = EB9AD825427F216B54E693242E671FA1 /* HockeySDK-HockeySDKResources */;
+			targetProxy = 81AD7EE82D3F30405629A40B61783A28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01A5622A7D7B0A21A9DA548654794FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C8AE3B4E13683F0AE82DB0DD1FDE30 /* Pods-FestivalParkAppTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FestivalParkAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FestivalParkAppTests/Pods-FestivalParkAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FestivalParkAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08F127C7F09CB12F1058B19D7159D139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646187E4E98789626017D4A99F8B70DD /* Pods-FestivalParkApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FestivalParkApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FestivalParkApp/Pods-FestivalParkApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FestivalParkApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0EBB226BFFC6442EEF9E860CC79135EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0254840C5CECED568018A9845B086FD6 /* Pods-FestivalParkAppUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FestivalParkAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FestivalParkAppUITests/Pods-FestivalParkAppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FestivalParkAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1345FF4F9F18504EFD51A8DF3A672997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65CBEC7F68827E9A6BECE47F66CA97A /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F1F279D1D8DD91D6346089A594EBB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65CBEC7F68827E9A6BECE47F66CA97A /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		380C30050278E488BE23DB926933212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D765E1857F7113B70AC5A0C05A4BCE8 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40D79C9C7FF7BF20CECFFFF26F289710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D37B189B3A5C9E03CF2CEB7763ED00 /* Pods-FestivalParkAppTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FestivalParkAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FestivalParkAppTests/Pods-FestivalParkAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FestivalParkAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E53245BBAAAB71AD4E0EE52CA99FD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D765E1857F7113B70AC5A0C05A4BCE8 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BE8686178688508C1999836521DE3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCFF0563706C44313EAFBA6FD6B76F9 /* Pods-FestivalParkAppUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FestivalParkAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FestivalParkAppUITests/Pods-FestivalParkAppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FestivalParkAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		830037AC6C08B9382331954EBA7A82C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HockeySDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HockeySDK/ResourceBundle-HockeySDKResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HockeySDKResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CFDCC476D49D1DAD0A29BE5211B7F5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HockeySDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HockeySDK/ResourceBundle-HockeySDKResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HockeySDKResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D60CD877A708870E2BE96B83BA32F883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEAAE00AC31211E8F87456F87BD2F6F /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2997B67FC69B2C23C931DC54350F3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9CFF1FBAA4C1A0544259029B75AB0F /* Pods-FestivalParkApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FestivalParkApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FestivalParkApp/Pods-FestivalParkApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FestivalParkApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F066921CBDBDB5F45795E50FBC5AC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEAAE00AC31211E8F87456F87BD2F6F /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36BC870E757C15E340A9A6F2C5E8A6F4 /* Build configuration list for PBXNativeTarget "HockeySDK-HockeySDKResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830037AC6C08B9382331954EBA7A82C1 /* Debug */,
+				CFDCC476D49D1DAD0A29BE5211B7F5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACAD50DF4BD17E59A58BB899162911E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1345FF4F9F18504EFD51A8DF3A672997 /* Debug */,
+				1F1F279D1D8DD91D6346089A594EBB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E7EFBCEA1340954A03AA68051C2306 /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E53245BBAAAB71AD4E0EE52CA99FD28 /* Debug */,
+				380C30050278E488BE23DB926933212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B354B3EF8C9EBFD671E42502C6D4A156 /* Build configuration list for PBXNativeTarget "Pods-FestivalParkAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE8686178688508C1999836521DE3CC /* Debug */,
+				0EBB226BFFC6442EEF9E860CC79135EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E9DE5785E60F90CDA32C0836B7D730 /* Build configuration list for PBXNativeTarget "Pods-FestivalParkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2997B67FC69B2C23C931DC54350F3F8 /* Debug */,
+				08F127C7F09CB12F1058B19D7159D139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60CD877A708870E2BE96B83BA32F883 /* Debug */,
+				F066921CBDBDB5F45795E50FBC5AC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87BCB27E1E100179E6E65399E17E7C9 /* Build configuration list for PBXNativeTarget "Pods-FestivalParkAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A5622A7D7B0A21A9DA548654794FC6 /* Debug */,
+				40D79C9C7FF7BF20CECFFFF26F289710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

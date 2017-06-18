@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="C41-SF-q3P">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="BNx-2m-HZM">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="C41-SF-q3P" customClass="MainTabBarController" customModule="FestivalParkApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="ehZ-5K-ePl">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.058823529409999999" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="UrN-0L-Egf" kind="relationship" relationship="viewControllers" id="V5h-4t-Dgv"/>
+                        <segue destination="zYw-US-x0x" kind="relationship" relationship="viewControllers" id="DB0-TT-4mx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3b6-f1-1QF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="156" y="161"/>
+        </scene>
+        <!--FestivalsTable-->
+        <scene sceneID="Nus-S7-ihy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FestivalsTable" id="zYw-US-x0x" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Festival List" image="list-fat-7" id="y0p-3l-stH"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TYs-vl-Uti" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116" y="161.46926536731635"/>
+        </scene>
+        <!--FestivalsMap-->
+        <scene sceneID="LoR-On-LAm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FestivalsMap" id="UrN-0L-Egf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Festaval" id="khr-bq-ox5"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nHr-8e-GmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="155" y="690"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="list-fat-7" width="30" height="30"/>
+    </resources>
+    <color key="tintColor" red="0.058823529409999999" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+</document>

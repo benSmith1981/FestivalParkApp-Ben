@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eiE-sX-M5Y">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Festival Table View Controller-->
+        <scene sceneID="3R9-92-LIl">
+            <objects>
+                <tableViewController id="b9q-ns-jqy" customClass="FestivalTableViewController" customModule="FestivalParkApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="dk4-ZK-zVD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="b9q-ns-jqy" id="Hkq-7d-cE4"/>
+                            <outlet property="delegate" destination="b9q-ns-jqy" id="HYv-es-21C"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="cIm-2F-A64"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <segue destination="v0n-52-J3R" kind="show" identifier="detailView" id="OW2-e2-fjp"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mz7-mm-wSl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2055.1999999999998" y="161.46926536731635"/>
+        </scene>
+        <!--FestivalDetail-->
+        <scene sceneID="kEW-EZ-Hrc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FestivalDetail" id="v0n-52-J3R" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Br3-E9-G69" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2774" y="161"/>
+        </scene>
+        <!--Festival List-->
+        <scene sceneID="H57-aZ-Exs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eiE-sX-M5Y" customClass="MainNavigationController" customModule="FestivalParkApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Festival List" image="list-fat-7" id="waS-LA-8Vi"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="RgA-Pg-K4f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="YWZ-gi-OLd">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="b9q-ns-jqy" kind="relationship" relationship="rootViewController" id="jt0-RK-ZfQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iVG-PU-TS9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116" y="161.46926536731635"/>
+        </scene>
+        <!--FestivalDetail-->
+        <scene sceneID="i5R-JU-L9S">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FestivalDetail" id="jfH-Ng-6bn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pjq-2H-rnV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2055" y="1035"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="list-fat-7" width="30" height="30"/>
+    </resources>
+    <color key="tintColor" red="0.058823529409999999" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+</document>

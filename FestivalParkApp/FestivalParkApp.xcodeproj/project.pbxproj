@@ -1,0 +1,1074 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0582778D1E6824E5009811C4 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0582778C1E6824E5009811C4 /* MainTabBarController.swift */; };
+		058277951E6854A2009811C4 /* TitleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058277931E6854A2009811C4 /* TitleViewCell.swift */; };
+		058277961E6854A2009811C4 /* TitleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 058277941E6854A2009811C4 /* TitleViewCell.xib */; };
+		058277981E6866DD009811C4 /* htmlDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058277971E6866DD009811C4 /* htmlDecode.swift */; };
+		0582779B1E686A19009811C4 /* RouteToCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058277991E686A19009811C4 /* RouteToCell.swift */; };
+		0582779C1E686A19009811C4 /* RouteToCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0582779A1E686A19009811C4 /* RouteToCell.xib */; };
+		0582779E1E686F3B009811C4 /* RouteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0582779D1E686F3B009811C4 /* RouteMapViewController.swift */; };
+		058277A31E68739E009811C4 /* DirectionPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058277A21E68739E009811C4 /* DirectionPolyline.swift */; };
+		058277A51E6873F4009811C4 /* RouteToMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058277A41E6873F4009811C4 /* RouteToMapView.swift */; };
+		05D3C20A1E64831F00BC1C03 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3C2091E64831F00BC1C03 /* Extensions.swift */; };
+		05D3C20C1E64850900BC1C03 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3C20B1E64850900BC1C03 /* Enums.swift */; };
+		05D3C20F1E648BFB00BC1C03 /* DetailmageSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3C20D1E648BFB00BC1C03 /* DetailmageSliderCell.swift */; };
+		05D3C2101E648BFB00BC1C03 /* DetailmageSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D3C20E1E648BFB00BC1C03 /* DetailmageSliderCell.xib */; };
+		05D3C2161E648CCA00BC1C03 /* ImageSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3C2141E648CCA00BC1C03 /* ImageSliderCollectionViewCell.swift */; };
+		05D3C2171E648CCA00BC1C03 /* ImageSliderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D3C2151E648CCA00BC1C03 /* ImageSliderCollectionViewCell.xib */; };
+		05D3C21A1E648E3300BC1C03 /* DetailImageFlowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3C2191E648E3300BC1C03 /* DetailImageFlowExtension.swift */; };
+		05D3C21C1E648EE200BC1C03 /* DetailImageCollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3C21B1E648EE200BC1C03 /* DetailImageCollectionExtension.swift */; };
+		05D3C2221E658BF400BC1C03 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3C2211E658BF400BC1C03 /* MainNavigationController.swift */; };
+		05D3C2251E658F7800BC1C03 /* GlobalParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3C2241E658F7800BC1C03 /* GlobalParams.swift */; };
+		17164F55ABBEC6B6FACECDF5 /* Pods_FestivalParkAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27565AA2CC26D32A5ED293E /* Pods_FestivalParkAppUITests.framework */; };
+		6013C41C1E603202000A50C7 /* FestivalListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013C41A1E603202000A50C7 /* FestivalListTableViewCell.swift */; };
+		6013C41D1E603202000A50C7 /* FestivalListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6013C41B1E603202000A50C7 /* FestivalListTableViewCell.xib */; };
+		6B94E23B7CE2B39C06BBC791 /* Pods_FestivalParkAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A92E5C7EDD4D792641E5272 /* Pods_FestivalParkAppTests.framework */; };
+		6C1678211E67169800D81677 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1678201E67169800D81677 /* TutorialViewController.swift */; };
+		6C6A10991E5C39FF009D45FF /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A108D1E5C39FF009D45FF /* Dates.swift */; };
+		6C6A109A1E5C39FF009D45FF /* De.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A108E1E5C39FF009D45FF /* De.swift */; };
+		6C6A109B1E5C39FF009D45FF /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A108F1E5C39FF009D45FF /* Details.swift */; };
+		6C6A109C1E5C39FF009D45FF /* En.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A10901E5C39FF009D45FF /* En.swift */; };
+		6C6A109D1E5C39FF009D45FF /* Es.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A10911E5C39FF009D45FF /* Es.swift */; };
+		6C6A109E1E5C39FF009D45FF /* Festival.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A10921E5C39FF009D45FF /* Festival.swift */; };
+		6C6A109F1E5C39FF009D45FF /* Fr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A10931E5C39FF009D45FF /* Fr.swift */; };
+		6C6A10A01E5C39FF009D45FF /* It.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A10941E5C39FF009D45FF /* It.swift */; };
+		6C6A10A11E5C39FF009D45FF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A10951E5C39FF009D45FF /* Location.swift */; };
+		6C6A10A21E5C39FF009D45FF /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A10961E5C39FF009D45FF /* Media.swift */; };
+		6C6A10A31E5C39FF009D45FF /* Nl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A10971E5C39FF009D45FF /* Nl.swift */; };
+		6C6A10A41E5C39FF009D45FF /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A10981E5C39FF009D45FF /* Types.swift */; };
+		6C6A10A61E5C3A1E009D45FF /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A10A51E5C3A1E009D45FF /* DataProvider.swift */; };
+		6C6A10AB1E5C75AC009D45FF /* FestivalsTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6A10A91E5C75AC009D45FF /* FestivalsTable.storyboard */; };
+		6C6A10AD1E5C75CB009D45FF /* FestivalDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6A10AC1E5C75CB009D45FF /* FestivalDetail.storyboard */; };
+		6C6A10B01E5C75E8009D45FF /* FestivalsMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6A10AE1E5C75E8009D45FF /* FestivalsMap.storyboard */; };
+		6C6AB7A71E641DA90048902B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C6AB7A61E641DA90048902B /* GoogleService-Info.plist */; };
+		BAE23D95F8FC4C6F37D6027E /* Pods_FestivalParkApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3028F16525598FC02BDEA821 /* Pods_FestivalParkApp.framework */; };
+		BEBDD4411E5B46500043D4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBDD4401E5B46500043D4A1 /* AppDelegate.swift */; };
+		BEBDD4461E5B46500043D4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBDD4441E5B46500043D4A1 /* Main.storyboard */; };
+		BEBDD4481E5B46500043D4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBDD4471E5B46500043D4A1 /* Assets.xcassets */; };
+		BEBDD44B1E5B46500043D4A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBDD4491E5B46500043D4A1 /* LaunchScreen.storyboard */; };
+		BEBDD4561E5B46500043D4A1 /* FestivalParkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBDD4551E5B46500043D4A1 /* FestivalParkAppTests.swift */; };
+		BEBDD4611E5B46500043D4A1 /* FestivalParkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBDD4601E5B46500043D4A1 /* FestivalParkAppUITests.swift */; };
+		BEBDD46F1E5B46710043D4A1 /* FestivalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBDD46E1E5B46710043D4A1 /* FestivalTableViewController.swift */; };
+		E82F73321E65D16300075B7D /* SF Shai Fontai Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82F73311E65D16300075B7D /* SF Shai Fontai Bold.ttf */; };
+		E82F73351E65D35900075B7D /* SF Shai Fontai.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82F732E1E65C7E300075B7D /* SF Shai Fontai.ttf */; };
+		E84867F81E681968003F0AD5 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84867F61E681968003F0AD5 /* DescriptionTableViewCell.swift */; };
+		E84867F91E681968003F0AD5 /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84867F71E681968003F0AD5 /* DescriptionTableViewCell.xib */; };
+		E84867FC1E681FFA003F0AD5 /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84867FA1E681FFA003F0AD5 /* AddressTableViewCell.swift */; };
+		E84867FD1E681FFA003F0AD5 /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84867FB1E681FFA003F0AD5 /* AddressTableViewCell.xib */; };
+		E87DDDE61E604EA9001FE0FC /* DetailsFestivalTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87DDDE51E604EA9001FE0FC /* DetailsFestivalTableView.swift */; };
+		E886CA6C1E6422B3007A47E0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886CA6B1E6422B3007A47E0 /* MapViewController.swift */; };
+		E886CA6E1E643A5E007A47E0 /* FestivalMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886CA6D1E643A5E007A47E0 /* FestivalMapAnnotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEBDD4521E5B46500043D4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBDD4351E5B46500043D4A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEBDD43C1E5B46500043D4A1;
+			remoteInfo = FestivalParkApp;
+		};
+		BEBDD45D1E5B46500043D4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBDD4351E5B46500043D4A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEBDD43C1E5B46500043D4A1;
+			remoteInfo = FestivalParkApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0582778C1E6824E5009811C4 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		058277931E6854A2009811C4 /* TitleViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewCell.swift; sourceTree = "<group>"; };
+		058277941E6854A2009811C4 /* TitleViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleViewCell.xib; sourceTree = "<group>"; };
+		058277971E6866DD009811C4 /* htmlDecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = htmlDecode.swift; sourceTree = "<group>"; };
+		058277991E686A19009811C4 /* RouteToCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteToCell.swift; sourceTree = "<group>"; };
+		0582779A1E686A19009811C4 /* RouteToCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteToCell.xib; sourceTree = "<group>"; };
+		0582779D1E686F3B009811C4 /* RouteMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteMapViewController.swift; sourceTree = "<group>"; };
+		058277A21E68739E009811C4 /* DirectionPolyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionPolyline.swift; sourceTree = "<group>"; };
+		058277A41E6873F4009811C4 /* RouteToMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteToMapView.swift; sourceTree = "<group>"; };
+		05D3C2091E64831F00BC1C03 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		05D3C20B1E64850900BC1C03 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		05D3C20D1E648BFB00BC1C03 /* DetailmageSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailmageSliderCell.swift; sourceTree = "<group>"; };
+		05D3C20E1E648BFB00BC1C03 /* DetailmageSliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailmageSliderCell.xib; sourceTree = "<group>"; };
+		05D3C2141E648CCA00BC1C03 /* ImageSliderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		05D3C2151E648CCA00BC1C03 /* ImageSliderCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageSliderCollectionViewCell.xib; sourceTree = "<group>"; };
+		05D3C2191E648E3300BC1C03 /* DetailImageFlowExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailImageFlowExtension.swift; sourceTree = "<group>"; };
+		05D3C21B1E648EE200BC1C03 /* DetailImageCollectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailImageCollectionExtension.swift; sourceTree = "<group>"; };
+		05D3C2211E658BF400BC1C03 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		05D3C2241E658F7800BC1C03 /* GlobalParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalParams.swift; sourceTree = "<group>"; };
+		1629239257ABF0F5F069B318 /* Pods-FestivalParkAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestivalParkAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FestivalParkAppUITests/Pods-FestivalParkAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		227EA14C67CDBCA02730646D /* Pods-FestivalParkAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestivalParkAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FestivalParkAppTests/Pods-FestivalParkAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3028F16525598FC02BDEA821 /* Pods_FestivalParkApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FestivalParkApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F0A31DCFF69DBE4D2BEBCC /* Pods-FestivalParkAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestivalParkAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FestivalParkAppUITests/Pods-FestivalParkAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A92E5C7EDD4D792641E5272 /* Pods_FestivalParkAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FestivalParkAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6013C41A1E603202000A50C7 /* FestivalListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestivalListTableViewCell.swift; sourceTree = "<group>"; };
+		6013C41B1E603202000A50C7 /* FestivalListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FestivalListTableViewCell.xib; sourceTree = "<group>"; };
+		6C1678201E67169800D81677 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		6C6A108D1E5C39FF009D45FF /* Dates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		6C6A108E1E5C39FF009D45FF /* De.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = De.swift; sourceTree = "<group>"; };
+		6C6A108F1E5C39FF009D45FF /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		6C6A10901E5C39FF009D45FF /* En.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = En.swift; sourceTree = "<group>"; };
+		6C6A10911E5C39FF009D45FF /* Es.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Es.swift; sourceTree = "<group>"; };
+		6C6A10921E5C39FF009D45FF /* Festival.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Festival.swift; sourceTree = "<group>"; };
+		6C6A10931E5C39FF009D45FF /* Fr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fr.swift; sourceTree = "<group>"; };
+		6C6A10941E5C39FF009D45FF /* It.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = It.swift; sourceTree = "<group>"; };
+		6C6A10951E5C39FF009D45FF /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6C6A10961E5C39FF009D45FF /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		6C6A10971E5C39FF009D45FF /* Nl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nl.swift; sourceTree = "<group>"; };
+		6C6A10981E5C39FF009D45FF /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		6C6A10A51E5C3A1E009D45FF /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataProvider.swift; path = DataLayer/DataProvider.swift; sourceTree = "<group>"; };
+		6C6A10AA1E5C75AC009D45FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FestivalsTable.storyboard; sourceTree = "<group>"; };
+		6C6A10AC1E5C75CB009D45FF /* FestivalDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FestivalDetail.storyboard; sourceTree = "<group>"; };
+		6C6A10AF1E5C75E8009D45FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FestivalsMap.storyboard; sourceTree = "<group>"; };
+		6C6AB7A61E641DA90048902B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D0E6BD2AF695CB0BF467876 /* Pods-FestivalParkAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestivalParkAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FestivalParkAppTests/Pods-FestivalParkAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABFC5CE28683750BDF5D7D39 /* Pods-FestivalParkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestivalParkApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FestivalParkApp/Pods-FestivalParkApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B27565AA2CC26D32A5ED293E /* Pods_FestivalParkAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FestivalParkAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8227751E69B6C6003147ED /* FestivalParkApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FestivalParkApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		BEBDD43D1E5B46500043D4A1 /* FestivalParkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FestivalParkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBDD4401E5B46500043D4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEBDD4451E5B46500043D4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEBDD4471E5B46500043D4A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEBDD44A1E5B46500043D4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEBDD44C1E5B46500043D4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBDD4511E5B46500043D4A1 /* FestivalParkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FestivalParkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBDD4551E5B46500043D4A1 /* FestivalParkAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalParkAppTests.swift; sourceTree = "<group>"; };
+		BEBDD4571E5B46500043D4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBDD45C1E5B46500043D4A1 /* FestivalParkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FestivalParkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBDD4601E5B46500043D4A1 /* FestivalParkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalParkAppUITests.swift; sourceTree = "<group>"; };
+		BEBDD4621E5B46500043D4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBDD46E1E5B46710043D4A1 /* FestivalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FestivalTableViewController.swift; path = ../FestivalTableViewController.swift; sourceTree = "<group>"; };
+		D9E15D64ECE82E644396CF2B /* Pods-FestivalParkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestivalParkApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FestivalParkApp/Pods-FestivalParkApp.release.xcconfig"; sourceTree = "<group>"; };
+		E82F732E1E65C7E300075B7D /* SF Shai Fontai.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Shai Fontai.ttf"; sourceTree = "<group>"; };
+		E82F73311E65D16300075B7D /* SF Shai Fontai Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Shai Fontai Bold.ttf"; sourceTree = "<group>"; };
+		E84867F61E681968003F0AD5 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		E84867F71E681968003F0AD5 /* DescriptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		E84867FA1E681FFA003F0AD5 /* AddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
+		E84867FB1E681FFA003F0AD5 /* AddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressTableViewCell.xib; sourceTree = "<group>"; };
+		E87DDDE51E604EA9001FE0FC /* DetailsFestivalTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsFestivalTableView.swift; path = ../DetailsFestivalTableView.swift; sourceTree = "<group>"; };
+		E886CA6B1E6422B3007A47E0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E886CA6D1E643A5E007A47E0 /* FestivalMapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestivalMapAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEBDD43A1E5B46500043D4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE23D95F8FC4C6F37D6027E /* Pods_FestivalParkApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBDD44E1E5B46500043D4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B94E23B7CE2B39C06BBC791 /* Pods_FestivalParkAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBDD4591E5B46500043D4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17164F55ABBEC6B6FACECDF5 /* Pods_FestivalParkAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0525A85D1E6959E100495E57 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BEBDD4441E5B46500043D4A1 /* Main.storyboard */,
+				6C6A10AE1E5C75E8009D45FF /* FestivalsMap.storyboard */,
+				6C6A10A91E5C75AC009D45FF /* FestivalsTable.storyboard */,
+				6C6A10AC1E5C75CB009D45FF /* FestivalDetail.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		0582778B1E6824C2009811C4 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0582778C1E6824E5009811C4 /* MainTabBarController.swift */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		0582778E1E68339E009811C4 /* Festival Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				BEBDD46E1E5B46710043D4A1 /* FestivalTableViewController.swift */,
+			);
+			name = "Festival Tableview";
+			sourceTree = "<group>";
+		};
+		058277901E683841009811C4 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E886CA6B1E6422B3007A47E0 /* MapViewController.swift */,
+				E886CA6D1E643A5E007A47E0 /* FestivalMapAnnotation.swift */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		0582779F1E6872B1009811C4 /* Route View */ = {
+			isa = PBXGroup;
+			children = (
+				0582779D1E686F3B009811C4 /* RouteMapViewController.swift */,
+				058277A41E6873F4009811C4 /* RouteToMapView.swift */,
+				058277A21E68739E009811C4 /* DirectionPolyline.swift */,
+			);
+			name = "Route View";
+			sourceTree = "<group>";
+		};
+		05D3C2111E648BFF00BC1C03 /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				05D3C2121E648C1600BC1C03 /* Custom Cells */,
+				E87DDDE51E604EA9001FE0FC /* DetailsFestivalTableView.swift */,
+			);
+			name = "Detail View";
+			sourceTree = "<group>";
+		};
+		05D3C2121E648C1600BC1C03 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				05D3C2131E648C5C00BC1C03 /* imageSlider */,
+				E84867F61E681968003F0AD5 /* DescriptionTableViewCell.swift */,
+				E84867F71E681968003F0AD5 /* DescriptionTableViewCell.xib */,
+				E84867FA1E681FFA003F0AD5 /* AddressTableViewCell.swift */,
+				E84867FB1E681FFA003F0AD5 /* AddressTableViewCell.xib */,
+				058277931E6854A2009811C4 /* TitleViewCell.swift */,
+				058277941E6854A2009811C4 /* TitleViewCell.xib */,
+				058277991E686A19009811C4 /* RouteToCell.swift */,
+				0582779A1E686A19009811C4 /* RouteToCell.xib */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		05D3C2131E648C5C00BC1C03 /* imageSlider */ = {
+			isa = PBXGroup;
+			children = (
+				05D3C20D1E648BFB00BC1C03 /* DetailmageSliderCell.swift */,
+				05D3C21B1E648EE200BC1C03 /* DetailImageCollectionExtension.swift */,
+				05D3C2191E648E3300BC1C03 /* DetailImageFlowExtension.swift */,
+				05D3C20E1E648BFB00BC1C03 /* DetailmageSliderCell.xib */,
+				05D3C2181E648CD000BC1C03 /* CollectionCell */,
+			);
+			name = imageSlider;
+			sourceTree = "<group>";
+		};
+		05D3C2181E648CD000BC1C03 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				05D3C2141E648CCA00BC1C03 /* ImageSliderCollectionViewCell.swift */,
+				05D3C2151E648CCA00BC1C03 /* ImageSliderCollectionViewCell.xib */,
+			);
+			name = CollectionCell;
+			sourceTree = "<group>";
+		};
+		05D3C21D1E658AE000BC1C03 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E82F732E1E65C7E300075B7D /* SF Shai Fontai.ttf */,
+				E82F73311E65D16300075B7D /* SF Shai Fontai Bold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		05D3C2201E658B2E00BC1C03 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				05D3C2211E658BF400BC1C03 /* MainNavigationController.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		05D3C2231E658F6D00BC1C03 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				05D3C2241E658F7800BC1C03 /* GlobalParams.swift */,
+				05D3C21D1E658AE000BC1C03 /* Fonts */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
+		05D3C2261E6592CF00BC1C03 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				05D3C2091E64831F00BC1C03 /* Extensions.swift */,
+				05D3C20B1E64850900BC1C03 /* Enums.swift */,
+				058277971E6866DD009811C4 /* htmlDecode.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		0BE58DAA7F1C512D9F459BBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3028F16525598FC02BDEA821 /* Pods_FestivalParkApp.framework */,
+				5A92E5C7EDD4D792641E5272 /* Pods_FestivalParkAppTests.framework */,
+				B27565AA2CC26D32A5ED293E /* Pods_FestivalParkAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45BAD46E0525CB8FE7D2429F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC5CE28683750BDF5D7D39 /* Pods-FestivalParkApp.debug.xcconfig */,
+				D9E15D64ECE82E644396CF2B /* Pods-FestivalParkApp.release.xcconfig */,
+				227EA14C67CDBCA02730646D /* Pods-FestivalParkAppTests.debug.xcconfig */,
+				8D0E6BD2AF695CB0BF467876 /* Pods-FestivalParkAppTests.release.xcconfig */,
+				43F0A31DCFF69DBE4D2BEBCC /* Pods-FestivalParkAppUITests.debug.xcconfig */,
+				1629239257ABF0F5F069B318 /* Pods-FestivalParkAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6013C41E1E60322C000A50C7 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				6013C41A1E603202000A50C7 /* FestivalListTableViewCell.swift */,
+				6013C41B1E603202000A50C7 /* FestivalListTableViewCell.xib */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		6C6A108B1E5C39E4009D45FF /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6C6A108C1E5C39FF009D45FF /* Model */,
+				6C6A10A51E5C3A1E009D45FF /* DataProvider.swift */,
+			);
+			name = DataLayer;
+			sourceTree = "<group>";
+		};
+		6C6A108C1E5C39FF009D45FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C6A108D1E5C39FF009D45FF /* Dates.swift */,
+				6C6A108E1E5C39FF009D45FF /* De.swift */,
+				6C6A108F1E5C39FF009D45FF /* Details.swift */,
+				6C6A10901E5C39FF009D45FF /* En.swift */,
+				6C6A10911E5C39FF009D45FF /* Es.swift */,
+				6C6A10921E5C39FF009D45FF /* Festival.swift */,
+				6C6A10931E5C39FF009D45FF /* Fr.swift */,
+				6C6A10941E5C39FF009D45FF /* It.swift */,
+				6C6A10951E5C39FF009D45FF /* Location.swift */,
+				6C6A10961E5C39FF009D45FF /* Media.swift */,
+				6C6A10971E5C39FF009D45FF /* Nl.swift */,
+				6C6A10981E5C39FF009D45FF /* Types.swift */,
+			);
+			name = Model;
+			path = DataLayer/Model;
+			sourceTree = "<group>";
+		};
+		BEBDD4341E5B46500043D4A1 = {
+			isa = PBXGroup;
+			children = (
+				BEBDD43F1E5B46500043D4A1 /* FestivalParkApp */,
+				BEBDD4541E5B46500043D4A1 /* FestivalParkAppTests */,
+				BEBDD45F1E5B46500043D4A1 /* FestivalParkAppUITests */,
+				BEBDD43E1E5B46500043D4A1 /* Products */,
+				45BAD46E0525CB8FE7D2429F /* Pods */,
+				0BE58DAA7F1C512D9F459BBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEBDD43E1E5B46500043D4A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEBDD43D1E5B46500043D4A1 /* FestivalParkApp.app */,
+				BEBDD4511E5B46500043D4A1 /* FestivalParkAppTests.xctest */,
+				BEBDD45C1E5B46500043D4A1 /* FestivalParkAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEBDD43F1E5B46500043D4A1 /* FestivalParkApp */ = {
+			isa = PBXGroup;
+			children = (
+				BEBDD4401E5B46500043D4A1 /* AppDelegate.swift */,
+				05D3C2231E658F6D00BC1C03 /* Design */,
+				0582778B1E6824C2009811C4 /* TabBar */,
+				05D3C2201E658B2E00BC1C03 /* Navigation */,
+				05D3C2261E6592CF00BC1C03 /* Components */,
+				05D3C2111E648BFF00BC1C03 /* Detail View */,
+				6C6A108B1E5C39E4009D45FF /* DataLayer */,
+				6013C41E1E60322C000A50C7 /* CustomCells */,
+				0525A85D1E6959E100495E57 /* Storyboards */,
+				0582778E1E68339E009811C4 /* Festival Tableview */,
+				6C1678201E67169800D81677 /* TutorialViewController.swift */,
+				058277901E683841009811C4 /* Maps */,
+				0582779F1E6872B1009811C4 /* Route View */,
+				BEBDD4471E5B46500043D4A1 /* Assets.xcassets */,
+				BEBDD4491E5B46500043D4A1 /* LaunchScreen.storyboard */,
+				BEBDD44C1E5B46500043D4A1 /* Info.plist */,
+				6C6AB7A61E641DA90048902B /* GoogleService-Info.plist */,
+				BE8227751E69B6C6003147ED /* FestivalParkApp-Bridging-Header.h */,
+			);
+			path = FestivalParkApp;
+			sourceTree = "<group>";
+		};
+		BEBDD4541E5B46500043D4A1 /* FestivalParkAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEBDD4551E5B46500043D4A1 /* FestivalParkAppTests.swift */,
+				BEBDD4571E5B46500043D4A1 /* Info.plist */,
+			);
+			path = FestivalParkAppTests;
+			sourceTree = "<group>";
+		};
+		BEBDD45F1E5B46500043D4A1 /* FestivalParkAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEBDD4601E5B46500043D4A1 /* FestivalParkAppUITests.swift */,
+				BEBDD4621E5B46500043D4A1 /* Info.plist */,
+			);
+			path = FestivalParkAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEBDD43C1E5B46500043D4A1 /* FestivalParkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBDD4651E5B46510043D4A1 /* Build configuration list for PBXNativeTarget "FestivalParkApp" */;
+			buildPhases = (
+				4EB4E2DC4F43FC4BF1AA4F69 /* [CP] Check Pods Manifest.lock */,
+				BEBDD4391E5B46500043D4A1 /* Sources */,
+				BEBDD43A1E5B46500043D4A1 /* Frameworks */,
+				BEBDD43B1E5B46500043D4A1 /* Resources */,
+				40A9C7C7E4EC49C06817DAB7 /* [CP] Embed Pods Frameworks */,
+				42926180AAFDC3E252025020 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FestivalParkApp;
+			productName = FestivalParkApp;
+			productReference = BEBDD43D1E5B46500043D4A1 /* FestivalParkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEBDD4501E5B46500043D4A1 /* FestivalParkAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBDD4681E5B46510043D4A1 /* Build configuration list for PBXNativeTarget "FestivalParkAppTests" */;
+			buildPhases = (
+				82207E86BFB59418AA76294C /* [CP] Check Pods Manifest.lock */,
+				BEBDD44D1E5B46500043D4A1 /* Sources */,
+				BEBDD44E1E5B46500043D4A1 /* Frameworks */,
+				BEBDD44F1E5B46500043D4A1 /* Resources */,
+				9A1732EE30F6CB290B518F93 /* [CP] Embed Pods Frameworks */,
+				4A2A776C9A792D8300094B8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEBDD4531E5B46500043D4A1 /* PBXTargetDependency */,
+			);
+			name = FestivalParkAppTests;
+			productName = FestivalParkAppTests;
+			productReference = BEBDD4511E5B46500043D4A1 /* FestivalParkAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEBDD45B1E5B46500043D4A1 /* FestivalParkAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBDD46B1E5B46510043D4A1 /* Build configuration list for PBXNativeTarget "FestivalParkAppUITests" */;
+			buildPhases = (
+				AE6DE00F37A96A7627C6B293 /* [CP] Check Pods Manifest.lock */,
+				BEBDD4581E5B46500043D4A1 /* Sources */,
+				BEBDD4591E5B46500043D4A1 /* Frameworks */,
+				BEBDD45A1E5B46500043D4A1 /* Resources */,
+				F2941ACBA4DB639817F9BCE3 /* [CP] Embed Pods Frameworks */,
+				84AB7A58B6C757C1CFF9D7E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEBDD45E1E5B46500043D4A1 /* PBXTargetDependency */,
+			);
+			name = FestivalParkAppUITests;
+			productName = FestivalParkAppUITests;
+			productReference = BEBDD45C1E5B46500043D4A1 /* FestivalParkAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEBDD4351E5B46500043D4A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ben Smith";
+				TargetAttributes = {
+					BEBDD43C1E5B46500043D4A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C3BR3GV29G;
+						ProvisioningStyle = Automatic;
+					};
+					BEBDD4501E5B46500043D4A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEBDD43C1E5B46500043D4A1;
+					};
+					BEBDD45B1E5B46500043D4A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEBDD43C1E5B46500043D4A1;
+					};
+				};
+			};
+			buildConfigurationList = BEBDD4381E5B46500043D4A1 /* Build configuration list for PBXProject "FestivalParkApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEBDD4341E5B46500043D4A1;
+			productRefGroup = BEBDD43E1E5B46500043D4A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEBDD43C1E5B46500043D4A1 /* FestivalParkApp */,
+				BEBDD4501E5B46500043D4A1 /* FestivalParkAppTests */,
+				BEBDD45B1E5B46500043D4A1 /* FestivalParkAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEBDD43B1E5B46500043D4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBDD44B1E5B46500043D4A1 /* LaunchScreen.storyboard in Resources */,
+				BEBDD4481E5B46500043D4A1 /* Assets.xcassets in Resources */,
+				6C6AB7A71E641DA90048902B /* GoogleService-Info.plist in Resources */,
+				E82F73321E65D16300075B7D /* SF Shai Fontai Bold.ttf in Resources */,
+				6C6A10B01E5C75E8009D45FF /* FestivalsMap.storyboard in Resources */,
+				6013C41D1E603202000A50C7 /* FestivalListTableViewCell.xib in Resources */,
+				0582779C1E686A19009811C4 /* RouteToCell.xib in Resources */,
+				058277961E6854A2009811C4 /* TitleViewCell.xib in Resources */,
+				BEBDD4461E5B46500043D4A1 /* Main.storyboard in Resources */,
+				05D3C2101E648BFB00BC1C03 /* DetailmageSliderCell.xib in Resources */,
+				6C6A10AD1E5C75CB009D45FF /* FestivalDetail.storyboard in Resources */,
+				E82F73351E65D35900075B7D /* SF Shai Fontai.ttf in Resources */,
+				E84867F91E681968003F0AD5 /* DescriptionTableViewCell.xib in Resources */,
+				6C6A10AB1E5C75AC009D45FF /* FestivalsTable.storyboard in Resources */,
+				E84867FD1E681FFA003F0AD5 /* AddressTableViewCell.xib in Resources */,
+				05D3C2171E648CCA00BC1C03 /* ImageSliderCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBDD44F1E5B46500043D4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBDD45A1E5B46500043D4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40A9C7C7E4EC49C06817DAB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestivalParkApp/Pods-FestivalParkApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42926180AAFDC3E252025020 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestivalParkApp/Pods-FestivalParkApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A2A776C9A792D8300094B8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestivalParkAppTests/Pods-FestivalParkAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB4E2DC4F43FC4BF1AA4F69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82207E86BFB59418AA76294C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84AB7A58B6C757C1CFF9D7E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestivalParkAppUITests/Pods-FestivalParkAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1732EE30F6CB290B518F93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestivalParkAppTests/Pods-FestivalParkAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6DE00F37A96A7627C6B293 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2941ACBA4DB639817F9BCE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestivalParkAppUITests/Pods-FestivalParkAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEBDD4391E5B46500043D4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87DDDE61E604EA9001FE0FC /* DetailsFestivalTableView.swift in Sources */,
+				6C6A109A1E5C39FF009D45FF /* De.swift in Sources */,
+				6C6A10A11E5C39FF009D45FF /* Location.swift in Sources */,
+				05D3C20F1E648BFB00BC1C03 /* DetailmageSliderCell.swift in Sources */,
+				0582779E1E686F3B009811C4 /* RouteMapViewController.swift in Sources */,
+				05D3C2161E648CCA00BC1C03 /* ImageSliderCollectionViewCell.swift in Sources */,
+				058277981E6866DD009811C4 /* htmlDecode.swift in Sources */,
+				058277A31E68739E009811C4 /* DirectionPolyline.swift in Sources */,
+				6C6A10A21E5C39FF009D45FF /* Media.swift in Sources */,
+				05D3C20C1E64850900BC1C03 /* Enums.swift in Sources */,
+				6C6A10A41E5C39FF009D45FF /* Types.swift in Sources */,
+				E84867FC1E681FFA003F0AD5 /* AddressTableViewCell.swift in Sources */,
+				0582779B1E686A19009811C4 /* RouteToCell.swift in Sources */,
+				6C6A109B1E5C39FF009D45FF /* Details.swift in Sources */,
+				6C6A109F1E5C39FF009D45FF /* Fr.swift in Sources */,
+				058277951E6854A2009811C4 /* TitleViewCell.swift in Sources */,
+				058277A51E6873F4009811C4 /* RouteToMapView.swift in Sources */,
+				0582778D1E6824E5009811C4 /* MainTabBarController.swift in Sources */,
+				E886CA6E1E643A5E007A47E0 /* FestivalMapAnnotation.swift in Sources */,
+				6C6A109D1E5C39FF009D45FF /* Es.swift in Sources */,
+				E84867F81E681968003F0AD5 /* DescriptionTableViewCell.swift in Sources */,
+				05D3C21A1E648E3300BC1C03 /* DetailImageFlowExtension.swift in Sources */,
+				6013C41C1E603202000A50C7 /* FestivalListTableViewCell.swift in Sources */,
+				6C6A109C1E5C39FF009D45FF /* En.swift in Sources */,
+				05D3C21C1E648EE200BC1C03 /* DetailImageCollectionExtension.swift in Sources */,
+				05D3C2251E658F7800BC1C03 /* GlobalParams.swift in Sources */,
+				6C6A10A31E5C39FF009D45FF /* Nl.swift in Sources */,
+				6C6A10991E5C39FF009D45FF /* Dates.swift in Sources */,
+				BEBDD4411E5B46500043D4A1 /* AppDelegate.swift in Sources */,
+				E886CA6C1E6422B3007A47E0 /* MapViewController.swift in Sources */,
+				05D3C20A1E64831F00BC1C03 /* Extensions.swift in Sources */,
+				6C1678211E67169800D81677 /* TutorialViewController.swift in Sources */,
+				BEBDD46F1E5B46710043D4A1 /* FestivalTableViewController.swift in Sources */,
+				6C6A10A61E5C3A1E009D45FF /* DataProvider.swift in Sources */,
+				6C6A10A01E5C39FF009D45FF /* It.swift in Sources */,
+				05D3C2221E658BF400BC1C03 /* MainNavigationController.swift in Sources */,
+				6C6A109E1E5C39FF009D45FF /* Festival.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBDD44D1E5B46500043D4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBDD4561E5B46500043D4A1 /* FestivalParkAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBDD4581E5B46500043D4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBDD4611E5B46500043D4A1 /* FestivalParkAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEBDD4531E5B46500043D4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEBDD43C1E5B46500043D4A1 /* FestivalParkApp */;
+			targetProxy = BEBDD4521E5B46500043D4A1 /* PBXContainerItemProxy */;
+		};
+		BEBDD45E1E5B46500043D4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEBDD43C1E5B46500043D4A1 /* FestivalParkApp */;
+			targetProxy = BEBDD45D1E5B46500043D4A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C6A10A91E5C75AC009D45FF /* FestivalsTable.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C6A10AA1E5C75AC009D45FF /* Base */,
+			);
+			name = FestivalsTable.storyboard;
+			sourceTree = "<group>";
+		};
+		6C6A10AE1E5C75E8009D45FF /* FestivalsMap.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C6A10AF1E5C75E8009D45FF /* Base */,
+			);
+			name = FestivalsMap.storyboard;
+			sourceTree = "<group>";
+		};
+		BEBDD4441E5B46500043D4A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEBDD4451E5B46500043D4A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEBDD4491E5B46500043D4A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEBDD44A1E5B46500043D4A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEBDD4631E5B46510043D4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEBDD4641E5B46510043D4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEBDD4661E5B46510043D4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABFC5CE28683750BDF5D7D39 /* Pods-FestivalParkApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C3BR3GV29G;
+				INFOPLIST_FILE = FestivalParkApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.theappacademy.FestivalParkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BEBDD4671E5B46510043D4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E15D64ECE82E644396CF2B /* Pods-FestivalParkApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C3BR3GV29G;
+				INFOPLIST_FILE = FestivalParkApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.theappacademy.FestivalParkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BEBDD4691E5B46510043D4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227EA14C67CDBCA02730646D /* Pods-FestivalParkAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FestivalParkAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.FestivalParkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FestivalParkApp.app/FestivalParkApp";
+			};
+			name = Debug;
+		};
+		BEBDD46A1E5B46510043D4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0E6BD2AF695CB0BF467876 /* Pods-FestivalParkAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FestivalParkAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.FestivalParkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FestivalParkApp.app/FestivalParkApp";
+			};
+			name = Release;
+		};
+		BEBDD46C1E5B46510043D4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F0A31DCFF69DBE4D2BEBCC /* Pods-FestivalParkAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FestivalParkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.FestivalParkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FestivalParkApp;
+			};
+			name = Debug;
+		};
+		BEBDD46D1E5B46510043D4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1629239257ABF0F5F069B318 /* Pods-FestivalParkAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FestivalParkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.FestivalParkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FestivalParkApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEBDD4381E5B46500043D4A1 /* Build configuration list for PBXProject "FestivalParkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBDD4631E5B46510043D4A1 /* Debug */,
+				BEBDD4641E5B46510043D4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBDD4651E5B46510043D4A1 /* Build configuration list for PBXNativeTarget "FestivalParkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBDD4661E5B46510043D4A1 /* Debug */,
+				BEBDD4671E5B46510043D4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBDD4681E5B46510043D4A1 /* Build configuration list for PBXNativeTarget "FestivalParkAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBDD4691E5B46510043D4A1 /* Debug */,
+				BEBDD46A1E5B46510043D4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBDD46B1E5B46510043D4A1 /* Build configuration list for PBXNativeTarget "FestivalParkAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBDD46C1E5B46510043D4A1 /* Debug */,
+				BEBDD46D1E5B46510043D4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEBDD4351E5B46500043D4A1 /* Project object */;
+}

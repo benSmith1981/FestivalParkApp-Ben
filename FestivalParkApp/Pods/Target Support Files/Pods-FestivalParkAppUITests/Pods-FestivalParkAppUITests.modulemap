@@ -1,0 +1,6 @@
+framework module Pods_FestivalParkAppUITests {
+  umbrella header "Pods-FestivalParkAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
